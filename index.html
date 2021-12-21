@@ -10,7 +10,7 @@
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/a23e6feb03.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body class="bg-gray-100">
     <main>
@@ -67,10 +67,9 @@
             </ul>
           </div>
           <nav class="nav">
-            <a class="mr-20 font-bold text-xs hover:text-gray-200" href="#">Store</a>
-            <a class="mr-20 font-bold text-xs hover:text-gray-200" href="#">Support</a>
-            <a class="mr-16 font-bold text-xs hover:text-gray-200" href="https://www.racssoft.com/">Racssoft</a>
-            
+            <a id="s" class="mr-20 font-bold text-xs hover:text-gray-200" href="">Store</a>
+            <a id="sup" class="mr-20 font-bold text-xs hover:text-gray-200" href="#">Support</a>
+            <a id="c" class="mr-16 font-bold text-xs hover:text-gray-200" href="#">Corporate</a>
           </nav>
           <a class="hover:text-gray-200 text-white login" href="#my-modal">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -141,7 +140,7 @@
       <!-- End Header -->
 
       <!-- Store Section Start -->
-      <section class="bg-mock-up bg-cover h-screen">
+      <section id="corporate" class="bg-mock-up bg-cover h-screen">
         <div class="container mx-auto px-4">
           <p class="text-gray-900">.</p>
           <div class="w-64 center">
@@ -182,13 +181,13 @@
         </div>
         <div class="grid grid-cols-4 gap-10 mt-36 mx-10">
           <div class="customer-logos">
-            <div class="service slide">
+            <div class="service slide h-40">
               <div class="p-2">
                 <img class="h-48 w-screen" src="./images/360_F_351271687_fXFbnOfJtNl9IPzy7vkRFFKFNlCcP3xv.jpg" alt="">
               </div>
               <div class="p-2 mt-1">
                 <p class="text-center font-extrabold hover:text-blue-700 mb-1">Sofware Development</p>
-                <p class="text-xs text-justify font-semibold fontz">Creating the interactive spaces you and your users need for easy access to resources, registrations, document and process management, collaboration and more! We learn about your operation and objectives to create a highly functional, and user-friendly web portal, tailor-made for you.</p>
+                <p class="text-xs text-justify font-semibold fontz">Racssoft develops dedicated Software solutions for companies around the world. Team Racssoft specialize in modern web technologies. Programmers create the software from scratch, including the MVP phase, but we also extend existing digital products. We focus on understanding business and technology needs</p>
               </div>
             </div>
             <div class="service1 slide">
@@ -197,7 +196,7 @@
               </div>
               <div class="p-2 mt-1">
                 <p class="text-center font-extrabold hover:text-blue-700 mb-1">SaaS</p>
-                <p class="text-xs text-justify font-semibold fontz">Creating the interactive spaces you and your users need for easy access to resources, registrations, document and process management, collaboration and more! We learn about your operation and objectives to create a highly functional, and user-friendly web portal, tailor-made for you.</p>
+                <p class="text-xs text-justify font-semibold fontz">Racssoft is going to host SaaS! You don’t need to worry about developing Apps to run on different types of computers and devices because Racssoft has already done so. In addition, you don’t need to bring special expertise onboard to manage the security issues inherent in mobile computing. </p>
               </div>
             </div>
             <div class="service2 slide">
@@ -215,7 +214,7 @@
               </div>
               <div class="p-2 mt-1">
                 <p class="text-center font-extrabold hover:text-blue-700 mb-1">Mobile Application</p>
-                <p class="text-xs text-justify font-semibold fontz">Creating the interactive spaces you and your users need for easy access to resources, registrations, document and process management, collaboration and more! We learn about your operation and objectives to create a highly functional, and user-friendly web portal, tailor-made for you.</p>
+                <p class="text-xs text-justify font-semibold fontz">Racssoft provides dedicated Mobile App development across different Mobile platforms. This hybrid approach to software development is often a go-to strategy for many businesses that aim to create a Mobile solution compatible with all Operating Systems – both Web and Mobile.</p>
               </div>
             </div>
             <div class="service4 slide">
@@ -224,7 +223,7 @@
               </div>
               <div class="p-2 mt-1">
                 <p class="text-center font-extrabold hover:text-blue-700 mb-1">UI/UX Design</p>
-                <p class="text-xs text-justify font-semibold fontz">Creating the interactive spaces you and your users need for easy access to resources, registrations, document and process management, collaboration and more! We learn about your operation and objectives to create a highly functional, and user-friendly web portal, tailor-made for you.</p>
+                <p class="text-xs text-justify font-semibold fontz">Our UX/UI specialists understand the importance of making software memorable, and that experience is all about how we feel. The synergy of design and technology translating into attractive appearance and robust architecture is what we always focus on, and that’s what sets our projects apart.</p><p></p>
               </div>
             </div>
             <div class="service5 slide">
@@ -232,8 +231,8 @@
                 <img class="h-48 w-screen" src="./images/GettyImages-1156783188-2.jpgAPI-Mashup-2.jpg" alt="">
               </div>
               <div class="p-2 mt-1">
-                <p class="text-center font-extrabold hover:text-blue-700 mb-1">API Creation & Integration</p>
-                <p class="text-xs text-justify font-semibold fontz">Creating the interactive spaces you and your users need for easy access to resources, registrations, document and process management, collaboration and more! We learn about your operation and objectives to create a highly functional, and user-friendly web portal, tailor-made for you.</p>
+                <p class="text-center font-extrabold hover:text-blue-700 mb-1">API Integration</p>
+                <p class="text-xs text-justify font-semibold fontz">Racssoft provides integration services through API for web services. Team Racssoft provide full support and implementation and take care of proper performance and security of the connections between services.</p>
               </div>
             </div>
             <div class="service6 slide">
@@ -242,7 +241,7 @@
               </div>
               <div class="p-2 mt-1">
                 <p class="text-center font-extrabold hover:text-blue-700 mb-1">System Integration</p>
-                <p class="text-xs text-justify font-semibold fontz">Creating the interactive spaces you and your users need for easy access to resources, registrations, document and process management, collaboration and more! We learn about your operation and objectives to create a highly functional, and user-friendly web portal, tailor-made for you.</p>
+                <p class="text-xs text-justify font-semibold fontz">Knowledge, experience and tools empower us with the capability to design, create and deliver smarter solutions that suit your needs. We are your trusted partner to deliver your technology projects on time and on budget with exceptional post-implementation services.</p>
               </div>
             </div>
           </div>

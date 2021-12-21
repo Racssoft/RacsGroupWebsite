@@ -4,7 +4,9 @@
   "description": "Tailwind CSS Playlist lessons by Learn with Sumit",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w",
+    "start": "node app.js"
+
   },
   "keywords": [],
   "author": "Learn with Sumit",
@@ -13,6 +15,7 @@
     "tailwindcss": "^2.2.19"
   },
   "dependencies": {
-    "daisyui": "^1.17.1"
+    "daisyui": "^1.17.1",
+    "express": "^4.17.2"
   }
 }
