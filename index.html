@@ -20,7 +20,7 @@
       <header class="text-white bg-gray-900 bg-opacity-60 fixed glass">
         <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
           <div class="dropdown text-xs">
-            <a id="parent" tabindex="0" class="flex items-center mb-4 md:mb-0 mx-48 2xl:mx-72 cursor-pointer">
+            <a id="parent" tabindex="0" class="flex items-center mb-4 md:mb-0 mx-44 2xl:mx-64 cursor-pointer">
               <img class="w-6" src="./images/mockup.png" alt="">
             </a>
             <ul id="submenu" tabindex="0" class="mt-3 p-2 menu dropdown-content w-52 text-white bg-gray-900 bg-opacity-80 ml-0 2xl:ml-24">
@@ -69,9 +69,9 @@
             </ul>
           </div>
           <nav class="nav">
-            <a id="s" class="mr-20 font-bold text-xs hover:text-gray-200" href="">Store</a>
-            <a id="sup" class="mr-20 font-bold text-xs hover:text-gray-200" href="#">Support</a>
-            <a id="c" class="mr-16 font-bold text-xs hover:text-gray-200" href="#">Corporate</a>
+            <a id="s" class="mr-32 2xl:mr-40 font-bold text-xs hover:text-gray-200" href="">Store</a>
+            <a id="sup" class="mr-32 2xl:mr-40 font-bold text-xs hover:text-gray-200" href="#">Support</a>
+            <a id="c" class="font-bold text-xs hover:text-gray-200" href="#">Corporate</a>
           </nav>
           <a class="hover:text-gray-200 text-white login" href="#my-modal">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -82,8 +82,7 @@
             <div class="modal-box">
               <form action="">
                 <p class="text-right text-gray-800"><a href="#modal" class=""><i class="fas fa-times"></i></a></p>
-                
-                <div class="form-control">
+                <div class="form-control text-black">
                   <label class="label">
                     <span class="label-text text-xs">Username</span>
                   </label> 
@@ -102,31 +101,35 @@
             </div>
           </div>
           <!-- Register page -->
-          <div id="my-modalR" class="modal w-80 modal-r">
+          <div id="my-modalR" class="modal w-96 modal-r">
             <div class="modal-box modal-box-r">
               <form action="">
                 <p class="text-right text-gray-800"><a href="#modal" class=""><i class="fas fa-times"></i></a></p>
-                <div class="form-control">
+                <div class="form-control text-black">
                   <label class="label">
                     <span class="label-text text-xs">Full Name</span>
                   </label> 
-                  <input type="text" placeholder="full name" class="input w-64 h-6 input-bordered input-">
+                  <input type="text" placeholder="full name" class="input h-6 input-bordered input-">
                   <label class="label">
                     <span class="label-text text-xs">Email</span>
                   </label> 
-                  <input type="email" placeholder="email" class="input w-64 h-6 input-bordered input-">
+                  <input type="email" placeholder="email" class="input h-6 input-bordered input-">
                   <label class="label">
                     <span class="label-text text-xs">Phone</span>
                   </label> 
-                  <input type="text" placeholder="phone" class="input w-64 h-6 input-bordered input-">
+                  <input type="text" placeholder="phone" class="input h-6 input-bordered input-">
                   <label class="label">
                     <span class="label-text text-xs">Username</span>
                   </label> 
-                  <input type="text" placeholder="username" class="input w-64 h-6 input-bordered input-">
+                  <input type="text" placeholder="username" class="input h-6 input-bordered input-">
                   <label class="label">
                     <span class="label-text text-xs">Password</span>
                   </label> 
-                  <input type="password" placeholder="password" class="input w-64 h-6 input-bordered">
+                  <input type="password" placeholder="password" class="input h-6 input-bordered">
+                  <label class="label">
+                    <span class="label-text text-xs">Confirm Password</span>
+                  </label> 
+                  <input type="password" placeholder="password" class="input h-6 input-bordered">
                 </div>
                 <div class="modal-action">
                   <a href="#modal" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold mt-3 mb-1.5 py-1 px-4 border border-gray-400 rounded shadow text-xs">Register</a> 
@@ -141,11 +144,11 @@
       
       <!-- End Header -->
 
-      <!-- Store Section Start -->
-      <section id="corporate" class="bg-mock-up bg-cover h-screen">
-        <div class="container mx-auto px-4">
+      <!-- Service Section Start -->
+      <section id="corporate" class="bg-cover h-screen" style="background-image: url('./images/background.jpg');">
+        <div class="mx-auto px-4">
           <p class="text-gray-900">.</p>
-          <div class="w-64 center">
+          <!-- <div class="w-64 center">
             <form action="" class="text-white">
               <div class="form-control">
                 <div class="relative">
@@ -154,109 +157,104 @@
                 </div>
               </div> 
             </form>
-          </div>
-          
-        </div>
-      </section>
-      <!-- End Store Section -->
-      <section class="">
-        <div class="flex items-center w-full px-4 py-10 bg-cover card bg-base-200 rounded-none" style="background-image: url('./images/background.jpg');">
-          <div class="card glass lg:card-side text-neutral-content">
-            <figure class="p-6">
-              <img src="./images/mockup.png" class="rounded-lg shadow-lg">
-            </figure> 
-            <div class="max-w-md card-body">
-              <h2 class="card-title">Racssoft</h2> 
-              <p class="text-justify">In 2020, Racssoft has started its onward journey with an ambition to design the world through Software and ICT initiatives. It's a software development, system integration and ITES company that deals with critical solutions and services. Racssoft is going to host various online services focusing on finance, education, health, agriculture and entertainment.</p> 
-              <div class="card-actions">
-                <button class="btn glass rounded-full">Explore</button>
+          </div> -->
+          <div class="flex items-center mt-14 ml company-info">
+            <div class="card glass lg:card-side text-neutral-content">
+              <figure class="p-6">
+                <img src="./images/mockup.png" class="h-60 rounded-lg shadow-lg">
+              </figure> 
+              <div class="max-w-md card-body">
+                <h2 class="card-title">Racssoft</h2> 
+                <p class="text-justify">In 2020, Racssoft has started its onward journey with an ambition to design the world through Software and ICT initiatives. It's a software development, system integration and ITES company that deals with critical solutions and services. Racssoft is going to host various online services focusing on finance, education, health, agriculture and entertainment.</p> 
+                <div class="card-actions">
+                  <button class="btn glass rounded-full">Explore</button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- Racssoft Innitiatives Start-->
-      <section class="bg-cover bg-center h-128" style="background-image: url('./images/2560x896_Open\ Innovation_Logo\ Banner.jpg');">
-        <p class="text-black">.</p>
-        <div class="glass ml mt-32 w-145 rounded-full font-extrabold font animate-bounce">
-          <p class="text-white text-7xl p-5 text-center">Make Global Impact</p>
-        </div>
-        <div class="grid grid-cols-4 gap-10 mt-36 mx-10">
-          <div class="customer-logos">
-            <div class="service slide">
-              <div class="p-2">
-                <img class="h-48 w-screen" src="./images/360_F_351271687_fXFbnOfJtNl9IPzy7vkRFFKFNlCcP3xv.jpg" alt="">
+          <div class="grid grid-cols-4 gap-10 mt-12 mx-10">
+            <div class="customer-logos">
+              <div class="service slide">
+                <div class="p-2">
+                  <img class="h-48 w-screen" src="./images/360_F_351271687_fXFbnOfJtNl9IPzy7vkRFFKFNlCcP3xv.jpg" alt="">
+                </div>
+                <div class="p-1">
+                  <p class="text-center font-extrabold hover:text-blue-700 mb-1">Sofware Development</p>
+                  <p class="text-xs text-justify font-semibold fontz">Racssoft develops dedicated Software solutions for companies around the world. Team Racssoft specialize in modern web technologies. Programmers create the software from scratch, including the MVP phase, but we also extend existing digital products. We focus on understanding business and technology needs</p>
+                </div>
               </div>
-              <div class="p-1">
-                <p class="text-center font-extrabold hover:text-blue-700 mb-1">Sofware Development</p>
-                <p class="text-xs text-justify font-semibold fontz">Racssoft develops dedicated Software solutions for companies around the world. Team Racssoft specialize in modern web technologies. Programmers create the software from scratch, including the MVP phase, but we also extend existing digital products. We focus on understanding business and technology needs</p>
+              <div class="service1 slide">
+                <div class="p-2">
+                  <img class="h-48 w-screen" src="./images/inbound-marketing-strategy-for-saas-companies.jpg" alt="">
+                </div>
+                <div class="p-1">
+                  <p class="text-center font-extrabold hover:text-blue-700 mb-1">SaaS</p>
+                  <p class="text-xs text-justify font-semibold fontz">Racssoft is going to host SaaS! you don’t need to purchase, install, update, or maintain any hardware, middleware, or software. We make sophisticated enterprise applications, such as ERP and CRM, affordable for organizations that lack the resources to buy, deploy and manage the required infrastructure and software themselves.
+                  </p>
+                </div>
               </div>
-            </div>
-            <div class="service1 slide">
-              <div class="p-2">
-                <img class="h-48 w-screen" src="./images/inbound-marketing-strategy-for-saas-companies.jpg" alt="">
+              <div class="service2 slide">
+                <div class="p-2">
+                  <img class="h-48 w-screen" src="./images/web-portal.jpg" alt="">
+                </div>
+                <div class="p-1">
+                  <p class="text-center font-extrabold hover:text-blue-700 mb-1">Web Application Development</p>
+                  <p class="text-xs text-justify font-semibold fontz">Creating the interactive spaces you and your users need for easy access to resources, registrations, document and process management, collaboration and more! We learn about your operation and objectives to create a highly functional, and user-friendly web portal, tailor-made for you.</p>
+                </div>
               </div>
-              <div class="p-1">
-                <p class="text-center font-extrabold hover:text-blue-700 mb-1">SaaS</p>
-                <p class="text-xs text-justify font-semibold fontz">Racssoft is going to host SaaS! you don’t need to purchase, install, update, or maintain any hardware, middleware, or software. We make sophisticated enterprise applications, such as ERP and CRM, affordable for organizations that lack the resources to buy, deploy and manage the required infrastructure and software themselves.
-                </p>
+              <div class="service3 slide">
+                <div class="p-2">
+                  <img class="h-48 w-screen" src="./images/design-trends-in-mobile-applications-main.jpg" alt="">
+                </div>
+                <div class="p-1">
+                  <p class="text-center font-extrabold hover:text-blue-700 mb-1">Mobile Application</p>
+                  <p class="text-xs text-justify font-semibold fontz">Racssoft provides dedicated Mobile App development across different Mobile platforms. This hybrid approach to software development is often a go-to strategy for many businesses that aim to create a Mobile solution compatible with all Operating Systems – both Web and Mobile.</p>
+                </div>
               </div>
-            </div>
-            <div class="service2 slide">
-              <div class="p-2">
-                <img class="h-48 w-screen" src="./images/web-portal.jpg" alt="">
+              <div class="service4 slide">
+                <div class="p-2">
+                  <img class="h-48 w-screen" src="./images/ux_B2B-web-design_WANDR-content.jpg" alt="">
+                </div>
+                <div class="p-1">
+                  <p class="text-center font-extrabold hover:text-blue-700 mb-1">UI/UX Design</p>
+                  <p class="text-xs text-justify font-semibold fontz">Our UX/UI specialists understand the importance of making software memorable, and that experience is all about how we feel. The synergy of design and technology translating into attractive appearance and robust architecture is what we always focus on, and that’s what sets our projects apart.</p><p></p>
+                </div>
               </div>
-              <div class="p-1">
-                <p class="text-center font-extrabold hover:text-blue-700 mb-1">Web Application Development</p>
-                <p class="text-xs text-justify font-semibold fontz">Creating the interactive spaces you and your users need for easy access to resources, registrations, document and process management, collaboration and more! We learn about your operation and objectives to create a highly functional, and user-friendly web portal, tailor-made for you.</p>
+              <div class="service5 slide">
+                <div class="p-2">
+                  <img class="h-48 w-screen" src="./images/GettyImages-1156783188-2.jpgAPI-Mashup-2.jpg" alt="">
+                </div>
+                <div class="p-1">
+                  <p class="text-center font-extrabold hover:text-blue-700 mb-1">API Integration</p>
+                  <p class="text-xs text-justify font-semibold fontz">Racssoft provides integration services through API for web services. Team Racssoft provide full support and implementation and take care of proper performance and security of the connections between services.</p>
+                </div>
               </div>
-            </div>
-            <div class="service3 slide">
-              <div class="p-2">
-                <img class="h-48 w-screen" src="./images/design-trends-in-mobile-applications-main.jpg" alt="">
-              </div>
-              <div class="p-1">
-                <p class="text-center font-extrabold hover:text-blue-700 mb-1">Mobile Application</p>
-                <p class="text-xs text-justify font-semibold fontz">Racssoft provides dedicated Mobile App development across different Mobile platforms. This hybrid approach to software development is often a go-to strategy for many businesses that aim to create a Mobile solution compatible with all Operating Systems – both Web and Mobile.</p>
-              </div>
-            </div>
-            <div class="service4 slide">
-              <div class="p-2">
-                <img class="h-48 w-screen" src="./images/ux_B2B-web-design_WANDR-content.jpg" alt="">
-              </div>
-              <div class="p-1">
-                <p class="text-center font-extrabold hover:text-blue-700 mb-1">UI/UX Design</p>
-                <p class="text-xs text-justify font-semibold fontz">Our UX/UI specialists understand the importance of making software memorable, and that experience is all about how we feel. The synergy of design and technology translating into attractive appearance and robust architecture is what we always focus on, and that’s what sets our projects apart.</p><p></p>
-              </div>
-            </div>
-            <div class="service5 slide">
-              <div class="p-2">
-                <img class="h-48 w-screen" src="./images/GettyImages-1156783188-2.jpgAPI-Mashup-2.jpg" alt="">
-              </div>
-              <div class="p-1">
-                <p class="text-center font-extrabold hover:text-blue-700 mb-1">API Integration</p>
-                <p class="text-xs text-justify font-semibold fontz">Racssoft provides integration services through API for web services. Team Racssoft provide full support and implementation and take care of proper performance and security of the connections between services.</p>
-              </div>
-            </div>
-            <div class="service6 slide">
-              <div class="p-2">
-                <img class="h-48 w-screen" src="./images/Systems-Integration (1).jpg" alt="">
-              </div>
-              <div class="p-1">
-                <p class="text-center font-extrabold hover:text-blue-700 mb-1">System Integration</p>
-                <p class="text-xs text-justify font-semibold fontz">Knowledge, experience and tools empower us with the capability to design, create and deliver smarter solutions that suit your needs. We are your trusted partner to deliver your technology projects on time and on budget with exceptional post-implementation services.</p>
+              <div class="service6 slide">
+                <div class="p-2">
+                  <img class="h-48 w-screen" src="./images/Systems-Integration (1).jpg" alt="">
+                </div>
+                <div class="p-1">
+                  <p class="text-center font-extrabold hover:text-blue-700 mb-1">System Integration</p>
+                  <p class="text-xs text-justify font-semibold fontz">Knowledge, experience and tools empower us with the capability to design, create and deliver smarter solutions that suit your needs. We are your trusted partner to deliver your technology projects on time and on budget with exceptional post-implementation services.</p>
+                </div>
               </div>
             </div>
           </div>
-          
         </div>
       </section>
-      <!-- Racssoft Innitiatives End-->
+      <!-- Service section End-->
       <!-- Product Section Start-->
       <section class="bg-cover bg-center h-128" style="background-image: url('./images/AdobeStock_262034994-scaled.jpeg');">
         <p class="text-white">.</p>
-        <div class="mt-40">
-          <div class="grid sm:grid-cols-2 xl:grid-cols-4 gap-6 lg:gap-10 ml-10 product-ml">
+      </section>
+      
+      <section class="bg-cover bg-center h-128" style="background-image: url('./images/2560x896_Open\ Innovation_Logo\ Banner.jpg');">
+        <p class="text-black">.</p>
+        <div class="glass mt w-screen font-extrabold font">
+          <p class="text text-6xl p-3 text-center">Make Global Impact</p>
+        </div>
+        <div class="mt-48 md:mt-36 lg:mt-56 xl:mt-48 2xl:mt-40">
+          <div class="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 md:ml-0 lg:ml-2 xl:ml-28 product-ml">
             <div id="shadow" class="animate-bounce-1 glass transition-shadow duration-200 shadow hover:shadow-xl p-3 rounded-lg space-y-2 product">
               <div class="" align="center">
                   <p class="font text-xl font-bold mb-1"><img class="w-8 inline" src="./images/RacsBlueIcon.png" alt=""> CashRacs</p>
@@ -285,11 +283,10 @@
               </div>
               <p class="text-sm text-center font font-semibold">e-Commerce Web Application</p>
             </div>
-            
           </div>
         </div>
       </section>
-      <!-- Product Section Start-->
+      <!-- Product Section End-->
       <!-- Payment Gateway start -->
       <section class="">
         <p class="text-gray-200">.</p>
