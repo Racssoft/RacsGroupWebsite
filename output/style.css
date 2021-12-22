@@ -56,7 +56,6 @@
     margin-top: 32%;
     margin-left: 39%;
 }
-
 .nav{
     margin-left: 5%;
 }
@@ -98,8 +97,14 @@ ul li:hover{
 .borderColor:hover{
     border-color: white;
 }
-.hr{
+.hr-1{
     border:1px solid rgba(255,255,255,.2);
+}
+.hr{
+    border:1px solid #ae946d;
+}
+.hr:hover{
+    border-color: white;
 }
 .imgBorder{
     border:2px solid rgba(255,255,255,.2);
@@ -282,6 +287,41 @@ width: 90vw;
 .animate-bounce-1{
     animation: bounce 4s infinite;
 }
+.animate-bounce-2{
+    animation: bounce 6s infinite;
+}
 .animate-pulse {
     animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+/* Responsive css */
+@media only screen and (min-width: 1024px){ /*for lg*/
+    .ml{
+        margin-left: 29% !important;
+    }
+}
+@media only screen and (min-width: 1280px){ /*for xl*/
+    .service{
+        height: 385px;
+    }
+    .service1{
+        height: 385px;
+    }
+    .service2{
+        height: 385px;
+    }
+    .service3{
+        height: 385px;
+    }
+    .service4{
+        height: 385px;
+    }
+    .service5{
+        height: 385px;
+    }
+    .service6{
+        height: 385px;
+    }
+    .ml{
+        margin-left: 32% !important;
+    }
 }
