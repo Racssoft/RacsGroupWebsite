@@ -6,6 +6,10 @@ module.exports = {
       backgroundImage: {
         'mock-up': "url('../images/Logo_mockup.jpg')",
       },
+      screens:{
+        'xxs': '540px',
+        'xxl':'1920px',
+      },
       height: {
         '130':'38rem',
         '128':'36rem',
@@ -15,6 +19,7 @@ module.exports = {
         '120':'32rem',
       },
       spacing:{
+        '140':'40rem',
         '145':'50rem',
         '130':'38rem',
         '128':'36rem',

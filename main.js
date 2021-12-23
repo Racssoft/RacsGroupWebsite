@@ -51,7 +51,6 @@ $( document ).ready(function() {
 			}
 		}]
 	});
-
 	$("#s").click(function(){
 		Swal.fire({
 			position: 'center',
@@ -68,15 +67,6 @@ $( document ).ready(function() {
 			timer: 2000
 		  })
 	  });
-	$("#c").click(function(){
-		Swal.fire({
-			position: 'center',
-			title: 'Under Development',
-			showConfirmButton: false,
-			timer: 2000
-		  })
-	  });
-	
 });
 
 

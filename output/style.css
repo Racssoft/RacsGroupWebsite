@@ -4,6 +4,9 @@
     top: 0px;
     width: 100%;
 }
+/* .center-1{
+    margin-right: 20%;
+} */
 .company-info{
     height: 360px;
 }
@@ -49,13 +52,18 @@
     border-color: #1f2937;
 }
 .product{
-    margin-top: 80%;
+    margin-top: 40%;
     border-radius: 0%;
     height: 230px;
     width: 220px;
 }
 .product-ml{
     align-items: center;
+    margin-left: 8%;
+}
+.product-ml-1{
+    align-items: center;
+    margin-left: 8%;
 }
 #shadow {
     
@@ -163,9 +171,8 @@ ul li:hover{
 
 /* Slider */ 
 .customer-logos {
-width: 90vw;
+    width: 90vw;
 }
-
 /* Slider */
 .slick-slide {
     margin: 0px 20px;

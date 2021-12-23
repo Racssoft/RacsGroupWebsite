@@ -14,7 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
-  <body class="bg-gray-100">
+  <body class="bg-gray-100 overflow-x-hidden">
     <main>
       <!-- Start Header -->
       <header class="text-white bg-gray-900 bg-opacity-60 fixed glass">
@@ -61,7 +61,7 @@
                 <a><i class="fas fa-layer-group mr-3"></i>Ghor.Design</a>
               </li>
               <li>
-                <a><i class="fas fa-landmark mr-3"></i>Frndz Club</a>
+                <a><i class="fas fa-landmark mr-3"></i>FrndzClub</a>
               </li>
               <li>
                 <a><i class="fas fa-car-side mr-3"></i>Speedzz</a>
@@ -71,7 +71,7 @@
           <nav class="nav">
             <a id="s" class="mr-32 2xl:mr-40 font-bold text-xs hover:text-gray-200" href="">Store</a>
             <a id="sup" class="mr-32 2xl:mr-40 font-bold text-xs hover:text-gray-200" href="#">Support</a>
-            <a id="c" class="font-bold text-xs hover:text-gray-200" href="#">Corporate</a>
+            <a class="font-bold text-xs hover:text-gray-200" href="./corporate.html">Corporate</a>
           </nav>
           <a class="hover:text-gray-200 text-white login" href="#my-modal">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -158,7 +158,7 @@
               </div> 
             </form>
           </div> -->
-          <div class="flex items-center mt-14 ml company-info">
+          <div class="flex items-center mt-14 ml company-info center-1">
             <div class="card glass lg:card-side text-neutral-content">
               <figure class="p-6">
                 <img src="./images/mockup.png" class="h-60 rounded-lg shadow-lg">
@@ -198,7 +198,7 @@
                   <img class="h-48 w-screen" src="./images/web-portal.jpg" alt="">
                 </div>
                 <div class="p-1">
-                  <p class="text-center font-extrabold hover:text-blue-700 mb-1">Web Application Development</p>
+                  <p class="text-center font-extrabold hover:text-blue-700 mb-1">Web Application</p>
                   <p class="text-xs text-justify font-semibold fontz">Creating the interactive spaces you and your users need for easy access to resources, registrations, document and process management, collaboration and more! We learn about your operation and objectives to create a highly functional, and user-friendly web portal, tailor-made for you.</p>
                 </div>
               </div>
@@ -251,37 +251,94 @@
       <section class="bg-cover bg-center h-128" style="background-image: url('./images/2560x896_Open\ Innovation_Logo\ Banner.jpg');">
         <p class="text-black">.</p>
         <div class="glass mt w-screen font-extrabold font">
-          <p class="text text-6xl p-3 text-center">Make Global Impact</p>
+          <p class="text-white text-6xl p-3 text-center">Make Global Impact</p>
         </div>
-        <div class="mt-48 md:mt-36 lg:mt-56 xl:mt-48 2xl:mt-40">
-          <div class="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 md:ml-0 lg:ml-2 xl:ml-28 product-ml">
-            <div id="shadow" class="animate-bounce-1 glass transition-shadow duration-200 shadow hover:shadow-xl p-3 rounded-lg space-y-2 product">
-              <div class="" align="center">
-                  <p class="font text-xl font-bold mb-1"><img class="w-8 inline" src="./images/RacsBlueIcon.png" alt=""> CashRacs</p>
-                  <img class="h-32 w-44" src="./images/mobile-smartphone-technology-digital-blue-background_1017-23176.jpg" alt="">
+        <div class="">
+          <div class="grid grid-rows-2 gap-5">
+            <div class="mr-2">
+              <div class="grid grid-cols-4 gap-12 product-ml float-right">
+                <div id="shadow" class="animate-bounce-1 glass transition-shadow duration-200 shadow hover:shadow-xl p-3 rounded-lg space-y-2 product">
+                  <div class="" align="center">
+                      <p class="font text-xl font-bold mb-1"><img class="w-8 inline" src="./images/RacsBlueIcon.png" alt=""> CashRacs</p>
+                      <img class="h-32 w-44" src="./images/mobile-smartphone-technology-digital-blue-background_1017-23176.jpg" alt="">
+                  </div>
+                  <p class="text-sm text-center font font-semibold">Cash Register Management Andriod Application</p>
+                </div>
+                <div id="shadow" class="animate-bounce-2 glass transition-shadow duration-200 shadow hover:shadow-xl p-3 rounded-lg space-y-2 product">
+                  <div class="" align="center">
+                    <p class="font text-xl font-bold mb-1"><img class="w-8 inline" src="./images/RacsBlueIcon.png" alt=""> CashRacs</p>
+                    <img class="h-32 w-44" src="./images/1_WnU2bC43gSBk1RVcmOTGhg.jpeg" alt="">
+                  </div>
+                  <p class="text-sm text-center font font-semibold">Cash Register Management Desktop Application</p>
+                </div>
+                <div id="shadow" class="animate-bounce-1 glass transition-shadow duration-200 shadow hover:shadow-xl p-3 rounded-lg space-y-2 product">
+                  <div class="" align="center">
+                    <p class="font text-xl font-bold mb-1"><img class="w-8 inline" src="./images/RacsBlueIcon.png" alt=""> RacsApart</p>
+                    <img class="h-32 w-44" src="./images/1000-x-420.jpg" alt="">
+                  </div>
+                  <p class="text-sm text-center font font-semibold">Apartment Management Desktop Application</p>
+                </div>
+                <div id="shadow" class="animate-bounce-2 glass transition-shadow duration-200 shadow hover:shadow-xl p-3 rounded-lg space-y-2 product">
+                  <div class="" align="center">
+                    <p class="font text-xl font-bold mb-1"><img class="w-8 inline" src="./images/RacsBlueIcon.png" alt=""> RacsCommerce</p>
+                    <img class="h-32 w-44" src="./images/ecommerce_trends.jpeg" alt="">
+                  </div>
+                  <p class="text-sm text-center font font-semibold">e-Commerce Web Application</p>
+                </div>
               </div>
-              <p class="text-sm text-center font font-semibold">Cash Register Management Andriod Application</p>
             </div>
-            <div id="shadow" class="animate-bounce-2 glass transition-shadow duration-200 shadow hover:shadow-xl p-3 rounded-lg space-y-2 product">
-              <div class="" align="center">
-                <p class="font text-xl font-bold mb-1"><img class="w-8 inline" src="./images/RacsBlueIcon.png" alt=""> CashRacs</p>
-                <img class="h-32 w-44" src="./images/1_WnU2bC43gSBk1RVcmOTGhg.jpeg" alt="">
+            <div class="-ml-36">
+              <div class="grid grid-cols-7 gap-10 product-ml-1">
+                <div id="shadow" class="glass transition-shadow duration-200 shadow hover:shadow-xl p-3 rounded-lg space-y-2 product">
+                  <div class="" align="center">
+                      <p class="font text-xl font-bold mb-1"><img class="w-8 inline" src="./images/RacsBlueIcon.png" alt=""> RacsWeb</p>
+                      <img class="h-32 w-44" src="./images/unnamed.jpg" alt="">
+                  </div>
+                  <p class="text-sm text-center font font-semibold">Corporate Web Solution</p>
+                </div>
+                <div id="shadow" class="glass transition-shadow duration-200 shadow hover:shadow-xl p-3 rounded-lg space-y-2 product">
+                  <div class="" align="center">
+                      <p class="font text-xl font-bold mb-1"><img class="w-8 inline" src="./images/RacsBlueIcon.png" alt=""> RacsCom</p>
+                      <img class="h-32 w-44" src="./images/web-page-browser-social-media-260nw-1165145755.jpg" alt="">
+                  </div>
+                  <p class="text-sm text-center font font-semibold">IT Business Management Desktop Application</p>
+                </div>
+                <div id="shadow" class="glass transition-shadow duration-200 shadow hover:shadow-xl p-3 rounded-lg space-y-2 product">
+                  <div class="" align="center">
+                      <p class="font text-xl font-bold mb-1"><img class="w-8 inline" src="./images/RacsBlueIcon.png" alt=""> RacsBlue</p>
+                      <img class="h-32 w-44" src="./images/siriniti-bespoke-it-solutions-services.jpg" alt="">
+                  </div>
+                  <p class="text-sm text-center font font-semibold">Shopping Mall Management Desktop Application</p>
+                </div>
+                <div id="shadow" class="glass transition-shadow duration-200 shadow hover:shadow-xl p-3 rounded-lg space-y-2 product">
+                  <div class="" align="center">
+                      <p class="font text-xl font-bold mb-1"><img class="w-8 inline" src="./images/RacsBlueIcon.png" alt=""> RacsCommerce</p>
+                      <img class="h-32 w-44" src="./images/Apps hubspot size.png" alt="">
+                  </div>
+                  <p class="text-sm text-center font font-semibold">e-Commerce Andriod Application</p>
+                </div>
+                <div id="shadow" class="glass transition-shadow duration-200 shadow hover:shadow-xl p-3 rounded-lg space-y-2 product">
+                  <div class="" align="center">
+                    <p class="font text-xl font-bold mb-1"><img class="w-8 inline" src="./images/RacsBlueIcon.png" alt=""> RacsPharma</p>
+                    <img class="h-32 w-44" src="./images/GettyImages-1138084088.jpg" alt="">
+                  </div>
+                  <p class="text-sm text-center font font-semibold">Pharmacy Management Desktop Application</p>
+                </div>
+                <div id="shadow" class="glass transition-shadow duration-200 shadow hover:shadow-xl p-3 rounded-lg space-y-2 product">
+                  <div class="" align="center">
+                    <p class="font text-xl font-bold mb-1"><img class="w-8 inline" src="./images/RacsBlueIcon.png" alt=""> RacsCafe</p>
+                    <img class="h-32 w-44" src="./images/zymr_best_practices_ensure_enhanced_mob_app_user_exper.jpg" alt="">
+                  </div>
+                  <p class="text-sm text-center font font-semibold">Cafe Management Desktop Application</p>
+                </div>
+                <div id="shadow" class="glass transition-shadow duration-200 shadow hover:shadow-xl p-3 rounded-lg space-y-2 product">
+                  <div class="" align="center">
+                    <p class="font text-xl font-bold mb-1"><img class="w-8 inline" src="./images/RacsBlueIcon.png" alt=""> RacsImm</p>
+                    <img class="h-32 w-44" src="./images/Why-Online-Comparison-of-Different-IT-companies-in-Miami-is-Crucial.jpg" alt="">
+                  </div>
+                  <p class="text-sm text-center font font-semibold">Immigration Management Web Application</p>
+                </div>
               </div>
-              <p class="text-sm text-center font font-semibold">Cash Register Management Desktop Application</p>
-            </div>
-            <div id="shadow" class="animate-bounce-1 glass transition-shadow duration-200 shadow hover:shadow-xl p-3 rounded-lg space-y-2 product">
-              <div class="" align="center">
-                <p class="font text-xl font-bold mb-1"><img class="w-8 inline" src="./images/RacsBlueIcon.png" alt=""> RacsApart</p>
-                <img class="h-32 w-44" src="./images/1000-x-420.jpg" alt="">
-              </div>
-              <p class="text-sm text-center font font-semibold">Apartment Management Desktop Application</p>
-            </div>
-            <div id="shadow" class="animate-bounce-2 glass transition-shadow duration-200 shadow hover:shadow-xl p-3 rounded-lg space-y-2 product">
-              <div class="" align="center">
-                <p class="font text-xl font-bold mb-1"><img class="w-8 inline" src="./images/RacsBlueIcon.png" alt=""> RacsCommerce</p>
-                <img class="h-32 w-44" src="./images/ecommerce_trends.jpeg" alt="">
-              </div>
-              <p class="text-sm text-center font font-semibold">e-Commerce Web Application</p>
             </div>
           </div>
         </div>

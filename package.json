@@ -6,7 +6,6 @@
   "scripts": {
     "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w",
     "start": "node app.js"
-
   },
   "keywords": [],
   "author": "Learn with Sumit",
