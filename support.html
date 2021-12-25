@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Racssoft</title>
+    <link rel="stylesheet" href="./output/tailwind.css" />
+    <link rel="stylesheet" href="./output/style.css">
+    <!-- Favivcon -->
+    <link href="./images/favicon.png" rel="icon">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/a23e6feb03.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body class="bg-gray-200 overflow-x-hidden">
+    <main>
+      <!-- Start Header -->
+      <header class="text-white bg-gray-900 bg-opacity-60 fixed glass">
+        <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
+          <div class="dropdown text-xs">
+            <a id="parent" tabindex="0" class="flex items-center mb-4 md:mb-0 mx-44 2xl:mx-64 cursor-pointer">
+              <img class="w-6" src="./images/RacssoftMockup.webp" alt="">
+            </a>
+            <ul id="submenu" tabindex="0" class="mt-3 p-2 menu dropdown-content w-52 text-white bg-gray-900 bg-opacity-80 ml-0 2xl:ml-24">
+              <li>
+                <a href="./corporate.html"><img class="w-3 mr-3" src="./images/RacswhiteIcon.webp" alt=""> Racssoft</a>
+              </li> 
+              <li>
+                <a href="./corporate.html"><i class="fas fa-chalkboard-teacher mr-3"></i>RacsIT</a>
+              </li> 
+              <li>
+                <a href="./corporate.html"><i class="fas fa-table mr-3"></i>Rac's Trading</a>
+              </li>
+              <li>
+                <a href="./corporate.html"><i class="fas fa-seedling mr-3"></i>Thungaa</a>
+              </li>
+              <li>
+                <a href="./corporate.html"><i class="fab fa-opencart mr-3"></i>RacsCart</a>
+              </li>
+              <li>
+                <a href="./corporate.html"><i class="fab fa-pagelines mr-3"></i>RacsAgro</a>
+              </li>
+              <li>
+                <a href="./corporate.html"><i class="fas fa-graduation-cap mr-3"></i>RacsSchool</a>
+              </li>
+              <li>
+                <a href="./corporate.html"><i class="fas fa-plane-departure mr-3"></i>FlyRacs</a>
+              </li>
+              <li>
+                <a href="./corporate.html"><i class="fas fa-laptop-house mr-3"></i>Kirod</a>
+              </li>
+              <li>
+                <a href="./corporate.html"><i class="fab fa-battle-net mr-3"></i>RacsNet</a>
+              </li>
+              <li>
+                <a href="./corporate.html"><i class="fas fa-globe mr-3"></i>RacsFoundation</a>
+              </li>
+              <li>
+                <a href="./corporate.html"><i class="fas fa-layer-group mr-3"></i>Ghor.Design</a>
+              </li>
+              <li>
+                <a href="./corporate.html"><i class="fas fa-landmark mr-3"></i>FrndzClub</a>
+              </li>
+              <li>
+                <a href="./corporate.html"><i class="fas fa-car-side mr-3"></i>Speedzz</a>
+              </li>
+            </ul>
+          </div>
+          <nav class="nav">
+            <a class="mr-32 2xl:mr-40 font-bold text-xs hover:text-gray-200" href="/">Racssoft</a>
+            <a id="sup" class="mr-32 2xl:mr-40 font-bold text-xs hover:text-gray-200" href="#">Store</a>
+            <a id="c" class="font-bold text-xs hover:text-gray-200" href="./corporate.html">Corporate</a>
+          </nav>
+          <a class="hover:text-gray-200 text-white login" href="#my-modal">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+            </svg>
+          </a> 
+          <div id="my-modal" class="modal w-56">
+            <div class="modal-box">
+              <form action="">
+                <p class="text-right text-gray-800"><a href="#modal" class=""><i class="fas fa-times"></i></a></p>
+                <div class="form-control text-black">
+                  <label class="label">
+                    <span class="label-text text-xs">Username</span>
+                  </label> 
+                  <input type="text" placeholder="username" class="input w-48 h-6 input-bordered">
+                  <label class="label">
+                    <span class="label-text text-xs">Password</span>
+                  </label> 
+                  <input type="password" placeholder="password" class="input w-48 h-6 input-bordered">
+                  <p class="text-xs font-bold text-right mt-1.5 text-gray-800"><a href="">Forget Password?</a></p>
+                </div>
+                <div class="modal-action">
+                  <a href="#modal" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold mt-3 mb-1.5 py-1 px-4 border border-gray-400 rounded shadow text-xs">Login</a> 
+                </div>
+                <p class="text-xs mt-1 text-gray-800">New Member? <a href="#my-modalR" class="font-bold">Register</a></p>
+              </form>
+            </div>
+          </div>
+          <!-- Register page -->
+          <div id="my-modalR" class="modal w-96 modal-r">
+            <div class="modal-box modal-box-r">
+              <form action="">
+                <p class="text-right text-gray-800"><a href="#modal" class=""><i class="fas fa-times"></i></a></p>
+                <div class="form-control text-black">
+                  <label class="label">
+                    <span class="label-text text-xs">Full Name</span>
+                  </label> 
+                  <input type="text" placeholder="full name" class="input h-6 input-bordered">
+                  <label class="label">
+                    <span class="label-text text-xs">Email</span>
+                  </label> 
+                  <input type="email" placeholder="email" class="input h-6 input-bordered">
+                  <label class="label">
+                    <span class="label-text text-xs">Phone</span>
+                  </label> 
+                  <input type="text" placeholder="phone" class="input h-6 input-bordered">
+                  <label class="label">
+                    <span class="label-text text-xs">Username</span>
+                  </label> 
+                  <input type="text" placeholder="username" class="input h-6 input-bordered">
+                  <label class="label">
+                    <span class="label-text text-xs">Password</span>
+                  </label> 
+                  <input type="password" placeholder="password" class="input h-6 input-bordered">
+                  <label class="label">
+                    <span class="label-text text-xs">Confirm Password</span>
+                  </label> 
+                  <input type="password" placeholder="password" class="input h-6 input-bordered">
+                </div>
+                <div class="modal-action">
+                  <a href="#modal" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold mt-3 mb-1.5 py-1 px-4 border border-gray-400 rounded shadow text-xs">Register</a> 
+                </div>
+                <p class="text-xs font-semibold text-gray-800"><a href="#my-modal">Login</a></p>
+              </form>
+            </div>
+          </div>
+          <!-- Register End -->
+        </div>
+      </header>
+      
+      <!-- End Header -->
+      <section class="bg-cover bg-center h-128" style="background-image: url('./images/support02_11zon.webp');">
+        <p class="text-black">.</p>
+        <div class="glass mt-52 ml-28 w-120 rounded-full font-extrabold font animate-bounce">
+          <p class="text-white text-4xl p-3 ml-40">Racssoft Support</p>
+        </div>
+        <div class="ml-56">
+          <p class="text-white text-xl text-justify fontz w-130">Concentrate on your business. You don't have time to be worried about your IT infrastructure. You need to manage your business and find ways to innovate. With Racssoft Support, you can focus</p>
+          <p class="text-white text-xl text-justify fontz w-144">your efforts where they belong: on your customers and your company.We will look after your infrastructure and assist you in keeping it working efficiently, safely, and in the manner that your business requires.</p>
+        </div>
+        
+      </section>
+      <!-- Service Section Start -->
+      <section>
+        <!-- Container -->
+		<div class="mx-auto">
+			<div class="flex justify-center px-6 my-12">
+				<!-- Row -->
+				<div class="w-full xl:w-3/4 lg:w-11/12 flex">
+					<!-- Col -->
+					<div
+						class="w-full h-auto bg-gray-400 hidden lg:block lg:w-1/2 bg-cover rounded-l-lg"
+						style="background-image: url('./images/data-science-teamwork_11zon.webp')"
+					></div>
+					<!-- Col -->
+					<div class="w-full lg:w-1/2 bg-white p-5 rounded-lg lg:rounded-l-none">
+						<div class="px-8 mb-4 text-center">
+							<h3 class="pt-4 mb-2 text-2xl text font-semibold">Estimate Project</h3>
+							<p class="mb-4 text-sm text-black">
+								We get it, stuff happens. Just enter your Project Details below and a concern person will contact you soon.
+							</p>
+						</div>
+						<form action="" method="">
+                            <div class="md:flex items-center">
+                                <div class="w-full md:w-1/2 flex flex-col">
+                                    <label class="font-semibold leading-none text-xs text">Name</label>
+                                    <input type="text" class="leading-none input-sm text-gray-900 p-3 focus:outline-none focus:border-blue-700 mt-4 bg-gray-100 border rounded border-gray-200" />
+                                </div>
+                                <div class="w-full md:w-1/2 flex flex-col md:ml-6 md:mt-0 mt-4">
+                                    <label class="font-semibold leading-none text-xs text">Company Name</label>
+                                    <input type="text" class="input-sm leading-none text-gray-900 p-3 focus:outline-none focus:border-blue-700 mt-4 bg-gray-100 border rounded border-gray-200"/>
+                                </div>
+                            </div>
+                            <div class="md:flex items-center mt-2">
+                                <div class="w-full md:w-1/2 flex flex-col">
+                                    <label class="font-semibold leading-none text-xs text">Email</label>
+                                    <input type="email" class="input-sm leading-none text-gray-900 p-3 focus:outline-none focus:border-blue-700 mt-4 bg-gray-100 border rounded border-gray-200" />
+                                </div>
+                                <div class="w-full md:w-1/2 flex flex-col md:ml-6 md:mt-0 mt-4">
+                                    <label class="font-semibold leading-none text-xs text">Phone</label>
+                                    <input type="text" class="input-sm leading-none text-gray-900 p-3 focus:outline-none focus:border-blue-700 mt-4 bg-gray-100 border rounded border-gray-200"/>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <div class="w-full flex flex-col mt-2">
+                                    <label class="font-semibold leading-none text-xs text">Elaborate Project</label>
+                                    <textarea type="text" class="h-20 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-blue-700 mt-4 bg-gray-100 border rounded border-gray-200"></textarea>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-center w-full">
+                                <button class="mt-2 font-semibold leading-none text-white text-sm py-2 px-2 bg-blue-700 rounded hover:bg-blue-600 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none">
+                                    Submit
+                                </button>
+                            </div>
+                        </form>
+					</div>
+				</div>
+			</div>
+		</div>
+      </section>
+      
+      <section class="">
+        <main class="py-12 md:px-20 sm:px-14 px-6">
+          <div class="sm:flex items-center shadow-md">
+            <div class="md:px-10 sm:px-5">
+              <h1 class="text-gray-800 font-bold text-2xl my-2">Create Token</h1>
+              <p class="text-gray-700 mb-2 md:mb-6">If you are a current customer who requires assistance from the Racssoft Technical Team, please create a token!</p>
+              <div class="flex justify-center">
+                <a href="#my-modalG" class="btn">Generate</a>
+                <div id="my-modalG" class="modal w-96 modal-r">
+                    <div id="modalBox" class="modal-box">
+                      <form action="">
+                        <p class="text-right text-gray-800"><a href="#modal" class=""><i class="fas fa-times"></i></a></p>
+                        <div class="form-control text-black">
+                            <label class="label">
+                                <span class="label-text text-xs font-semibold">RacsID</span>
+                              </label> 
+                              <input type="text" placeholder="Enter your RacsID" class="input h-6 input-bordered">
+                          <label class="label">
+                            <span class="label-text text-xs font-semibold">Name</span>
+                          </label> 
+                          <input type="text" placeholder="Enter your name" class="input h-6 input-bordered" disabled>
+                          <label class="label">
+                            <span class="label-text text-xs font-semibold">Email</span>
+                          </label> 
+                          <input type="email" placeholder="Enter your email" class="input h-6 input-bordered" disabled>
+                          <label class="label">
+                            <span class="label-text text-xs font-semibold">Phone</span>
+                          </label> 
+                          <input type="text" placeholder="phone" class="input h-6 input-bordered" disabled>
+                          <label class="label">
+                            <span class="label-text text-xs font-semibold">Query</span>
+                          </label> 
+                          <textarea type="text" class=""></textarea>
+                        </div>
+                        <div class="modal-action">
+                          <a href="#modal" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold mt-3 mb-1.5 py-1 px-4 border border-gray-400 rounded shadow text-xs">Submit</a> 
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div>
+              <img class="bg-cover h-72" src="./images/153104613_11zon.webp" alt="" />
+            </div>
+          </div>
+          <div></div>
+        </main>
+      </section>
+      <!-- Footer Section Start -->
+      <footer class="mx-auto px-4 mt-6 py-6 bg-black">
+        <div class="grid grid-cols-3 gap-3">
+          <div class="text-white">
+            <p class="mb-1 text-sm font-bold">Contact</p>
+            <hr class="border-t-2 border-white">
+            <div class="mt-5">
+              <div class="">
+                <!-- <p class="color text-sm font-semibold"><a href="#">Create Token</a></p> -->
+                <div class="text-sm mt-5" align="center">
+                  
+                  <p class="text-xl font-semibold hotline">Hotline: +880 9666 770 780</p>
+                  <hr class="hr mt-1">
+                  <div class="grid grid-cols-2 divide-x-2 divide-gray-500">
+                    <div class="text-justify mr-2">
+                      <p class="color font-semibold">Office: House-14, Road-05, Priyanka City, Sector-12
+                        Uttara, Dhaka-1230, Bangladesh.</p>
+                    </div>
+                    <div class="">
+                      <p class="color font-semibold">WhatsApp: +880 1322 845 531</p>
+                      <p class="color font-semibold">E-mail: contact@racssoft.com</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-5 color" align="center">
+                <div class="text-sm">
+                     <div class="glass w-80 bg-gray-700">
+                       <p class="text-white mt-1 text-center">Location Map</p>
+                      <iframe class="p-2 w-full h-36 opacity-75 hover:opacity-100" src="https://maps.google.com/maps?q=Racssoft&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"></iframe>
+                     </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-white">
+            <p class="mb-1 text-sm font-bold">RacsGroup</p>
+            <hr class="border-t-2 border-white">
+            <div class="grid grid-rows-2 gap-5">
+              <div class="mt-5 grid grid-cols-2 text-sm">
+                <div>
+                  <li class="color" type="none"><a href="./corporate.html">RacsIT</a></li>
+                  <li class="color my-1" type="none"><a href="./corporate.html">Racs Trading</a></li>
+                  <li class="color" type="none"><a href="./corporate.html">Thungaa</a></li>
+                  <li class="color my-1" type="none"><a href="./corporate.html"">RacsCart</a></li>
+                  <li class="color" type="none"><a href="./corporate.html">RacsAgro</a></li>
+                  <li class="color my-1" type="none"><a href="./corporate.html">RacsSchool</a></li>
+                  <li class="color" type="none"><a href="./corporate.html">FlyRacs</a></li>
+                </div>
+                <div>
+                  <li class="color" type="none"><a href="./corporate.html">Kirod</a></li>
+                  <li class="color my-1" type="none"><a href="./corporate.html">RacsNet</a></li>
+                  <li class="color" type="none"><a href="./corporate.html">E-emption</a></li>
+                  <li class="color my-1" type="none"><a href="./corporate.html">RacsFoundation</a></li>
+                  <li class="color" type="none"><a href="./corporate.html">Ghor.Design</a></li>
+                  <li class="color my-1" type="none"><a href="./corporate.html">Frndz Club</a></li>
+                  <li class="color" type="none"><a href="./corporate.html">Speedzz</a></li>
+                </div>
+              </div>
+              <div class="text-white">
+                <hr class="hr w-96">
+                <div class="mt-5 ml-2">
+                  <a href="./corporate.html"><img class="w-14 inline-flex imgBorder p-2" src="./images/RacssoftMockup.webp" alt="">
+                    <span class="ml-10 font-bold text-sm py-1 border-b-2 borderColor">BIG IDEA SMALL START</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="grid grid-rows-2 ml-24 mt-5">
+            <div class="text-white">
+              <p class="text-sm font-bold">Email Sign Up</p>
+              <div class="form-control mt-5">
+                <div class="relative">
+                  <input type="text" id="emailSignUp" placeholder="EMAIL" class="w-full pr-16 input bg-black input-bordered"> 
+                  <button id="emailSignUpBtn" class="absolute top-0 right-0 btn bg-black hover:bg-yellow-100 hover:text-black">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="text-white mt-1">
+              <p class="mb-1 text-sm font-bold">More Inspiration</p>
+              <hr class="border-t-2 border-white">
+              <div class="mt-5">
+                <a target="_blank" href="https://www.google.com/search?q=Racssoft&stick=H4sIAAAAAAAAAONgU1I1qDA2NzVNNk1NMTQyNbA0Mja2MqgwMjGxNEwyNUwyN0hLNDdJXcTKEZSYXFycn1YCAMX6JDQ0AAAA&hl=en&mat=CRH4_thC0ixfEmUB5zj54eygZ6N9lhi3EWA58zk2Ivd2KkfAjT2hah2qSX5OS0J0wfnYzEqRIsczmKMXBpy47pfogU3bjm3OD2JKuEB2dHWtIiuLYvXF_2hXhJySuIJeKrzqgUw1nZX5HU4It0PWuQ&authuser=0" class="">
+                  <i class="fab fa-google mr-7 text-xl hover:text-gray-400"></i>
+                </a>
+                <a target="_blank" href=""><i class="fab fa-facebook-square mr-7 text-xl hover:text-gray-400"></i></a>
+                <a target="_blank" href=""><i class="fab fa-twitter-square mr-7 text-xl hover:text-gray-400"></i></a>
+                <a target="_blank" href=""><i class="fab fa-linkedin mr-7 text-xl hover:text-gray-400"></i></a>
+                <a target="_blank" href=""><i class="fab fa-youtube-square mr-7 text-xl hover:text-gray-400"></i></a>
+                <a target="_blank" href=""><i class="fab fa-instagram-square mr-7 text-xl hover:text-gray-400"></i></a>
+                <a target="_blank" href="https://github.com/Racssoft"><i class="fab fa-github-square text-xl hover:text-gray-400"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="hr-1 -mt-10">
+        <div class="flex flex-col md:flex-row md:justify-center space-y-2 md:space-y-0 md:space-x-3 text-gray-500 text-xs">
+            <p class="color font-semibold mt-2">Copyright © 2021 Racssoft. All rights reserved.</p>
+        </div>
+    </footer>
+
+    </main>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
+  </body>
+</html>

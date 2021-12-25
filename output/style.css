@@ -32,6 +32,12 @@
 #my-modalR input{
     border-radius: 0%;
 }
+#my-modalG{
+    background-color: transparent;
+}
+#my-modalG input{
+    border-radius: 0%;
+}
 .modal-action{
     justify-content: center;
     margin-top: 5px;
@@ -46,6 +52,9 @@
 .modal-box{
     border-radius: 0%;
     background-image: linear-gradient(to right, rgba(109,180,186,0), rgba(109,180,186,1));
+}
+#modalBox{
+    background-image: linear-gradient(to right, rgb(224, 224, 224), #0977b5) !important;
 }
 *,::before, ::after {
     --tw-border-opacity: 1;
