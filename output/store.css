@@ -49,3 +49,18 @@
     color: #000;
     /*Set to match the Tailwind colour you want the active one to be */
 }
+
+.group:focus .group-focus\:flex {
+    display: flex;
+}
+
+.wid{
+    width: 60% !important;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.wid-1{
+    width: 40% !important;
+    margin-top: 4%;
+    margin-left: 33%;
+}
