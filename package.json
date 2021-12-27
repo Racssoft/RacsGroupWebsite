@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w",
+    "min": "npx tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css --minify -w",
     "start": "node app.js"
   },
   "keywords": [],
