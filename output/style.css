@@ -38,6 +38,24 @@
 #my-modalG input{
     border-radius: 0%;
 }
+#my-modalC{
+    background-color: transparent;
+}
+#my-modalC input{
+    border-radius: 0%;
+}
+#my-modalA{
+    background-color: transparent;
+}
+#my-modalA input{
+    border-radius: 0%;
+}
+.font-1{
+    font-weight: bold;
+}
+.font-2{
+    color: rgb(0, 0, 0);
+}
 .modal-action{
     justify-content: center;
     margin-top: 5px;

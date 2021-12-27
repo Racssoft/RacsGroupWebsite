@@ -51,22 +51,14 @@ $( document ).ready(function() {
 			}
 		}]
 	});
-	$("#s").click(function(){
-		Swal.fire({
-			position: 'center',
-			title: 'Under Development',
-			showConfirmButton: false,
-			timer: 2000
-		  })
-	  });
-	$("#sup").click(function(){
-		Swal.fire({
-			position: 'center',
-			title: 'Under Development',
-			showConfirmButton: false,
-			timer: 2000
-		  })
-	  });
+	// $("#s").click(function(){
+	// 	Swal.fire({
+	// 		position: 'center',
+	// 		title: 'Message Submit Successfully! Our Concern Person Send you the Consultant Schedule by reply email',
+	// 		showConfirmButton: false,
+	// 		timer: 2000
+	// 	  })
+	//   });
 });
 
 
