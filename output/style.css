@@ -181,29 +181,39 @@ ul li:hover{
 }
 .service{
     background-color: rgba(6,182,212,.7);
+    height: 370px;
 }
 .service1{
     background-color: rgba(28,102,145,.7);
+    height: 370px;
 }
 .service2{
     background-color: rgba(46, 234, 162, 0.7);
+    height: 370px;
 }
 .service3{
     background-color: rgba(25, 254, 243, 0.7);
+    height: 370px;
 }
 .service4{
     background-color: rgba(80,141,2,.7);
+    height: 370px;
 }
 .service5{
     background-color: rgba(9, 119, 181,.7);
+    height: 370px;
 }
 .service6{
     background-color: rgba(141, 2, 60, 0.5);
+    height: 370px;
 }
 
 /* Slider */ 
 .customer-logos {
     width: 90vw;
+}
+#prod{
+    width: 100vw;
 }
 /* Slider */
 .slick-slide {
@@ -375,6 +385,27 @@ ul li:hover{
         width: 112px !important;
         margin-left: 0%;
     }
+    .service{
+        height: 360px;
+    }
+    .service1{
+        height: 360px;
+    }
+    .service2{
+        height: 360px;
+    }
+    .service3{
+        height: 360px;
+    }
+    .service4{
+        height: 360px;
+    }
+    .service5{
+        height: 360px;
+    }
+    .service6{
+        height: 360px;
+    }
 }
 @media only screen and (min-width: 640px){ /*for md*/
     #my-modal{
@@ -396,6 +427,29 @@ ul li:hover{
         width: 240px !important;
         margin-left: 0%;
     }
+    .service{
+        height: 385px;
+    }
+    .service1{
+        height: 385px;
+    }
+    .service2{
+        height: 385px;
+    }
+    .service3{
+        height: 385px;
+    }
+    .service4{
+        height: 385px;
+    }
+    .service5{
+        height: 385px;
+    }
+    .service6{
+        height: 385px;
+    }
+    
+}
 }
 @media only screen and (min-width: 768px){ /*for md*/
     #my-modal{
@@ -420,8 +474,43 @@ ul li:hover{
         width: 240px !important;
         margin-left: 0%;
     }
+    .service{
+        height: 385px;
+    }
+    .service1{
+        height: 385px;
+    }
+    .service2{
+        height: 385px;
+    }
+    .service3{
+        height: 385px;
+    }
+    .service4{
+        height: 385px;
+    }
+    .service5{
+        height: 385px;
+    }
+    .service6{
+        height: 385px;
+    }
+    .product-ml{
+        align-items: center;
+        margin-left: -2.8%;
+    }
+    .product{
+        margin-top: 40%;
+        border-radius: 0%;
+        height: 230px;
+        width: 220px;
+    }
 }
 @media only screen and (min-width: 1024px){ /*for lg*/
+    .product-ml{
+        align-items: center;
+        margin-left: 8%;
+    }
     .ml{
         margin-left: 13% !important;
     }
@@ -446,6 +535,27 @@ ul li:hover{
         height: 240px;
         width: 240px !important;
         margin-left: 0%;
+    }
+    .service{
+        height: 385px;
+    }
+    .service1{
+        height: 385px;
+    }
+    .service2{
+        height: 385px;
+    }
+    .service3{
+        height: 385px;
+    }
+    .service4{
+        height: 385px;
+    }
+    .service5{
+        height: 385px;
+    }
+    .service6{
+        height: 385px;
     }
 }
 @media only screen and (min-width: 1280px){ /*for xl*/

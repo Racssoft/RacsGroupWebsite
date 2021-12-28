@@ -29,7 +29,6 @@ $( document ).ready(function() {
 		$('#submenu').stop(false, false).slideUp(1000000);
 
 	});
-	
 
 	$('.customer-logos').slick({
 		slidesToShow: 4,
@@ -40,14 +39,57 @@ $( document ).ready(function() {
 		dots: false,
 			pauseOnHover: true,
 			responsive: [{
-			breakpoint: 768,
+			breakpoint: 1280,
 			settings: {
 				slidesToShow: 3
 			}
 		}, {
-			breakpoint: 520,
+			breakpoint: 1024,
 			settings: {
 				slidesToShow: 2
+			}
+		}, {
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 2
+			}
+		}, {
+			breakpoint: 640,
+			settings: {
+				slidesToShow: 1
+			}
+		}]
+	});
+	if (document.documentElement.clientWidth < 900) {
+		// scripts
+	}
+	$('#prod').slick({
+		slidesToShow: 6,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 2000,
+		arrows: false,
+		dots: false,
+			pauseOnHover: true,
+			responsive: [{
+			breakpoint: 1280,
+			settings: {
+				slidesToShow: 3
+			}
+		}, {
+			breakpoint: 1024,
+			settings: {
+				slidesToShow: 2
+			}
+		}, {
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 2
+			}
+		}, {
+			breakpoint: 640,
+			settings: {
+				slidesToShow: 1
 			}
 		}]
 	});
