@@ -113,7 +113,7 @@ html,body
     margin-left: 5%;
 }
 .login{
-    margin-left: 25%;
+    margin-left: 11%;
 }
 #placeholder::placeholder{
     color: white;
@@ -357,6 +357,9 @@ ul li:hover{
 @media only screen and (min-width: 1024px){ /*for lg*/
     .ml{
         margin-left: 29% !important;
+    }
+    .login{
+        margin-left: 25%;
     }
 }
 @media only screen and (min-width: 1280px){ /*for xl*/

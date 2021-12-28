@@ -1,3 +1,4 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   purge: {
     enabled: true,
@@ -7,12 +8,15 @@ module.exports = {
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens:{
+      'xs':'475px',
+      ...defaultTheme.screens,
+    },
     extend: {
       backgroundImage: {
         'mock-up': "url('../images/Logo_mockup.jpg')",
       },
       screens:{
-        'xxs': '540px',
         'xxl':'1920px',
       },
       height: {
