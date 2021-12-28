@@ -12,9 +12,6 @@ html,body
     top: 0px;
     width: 100%;
 }
-/* .center-1{
-    margin-right: 20%;
-} */
 .company-info{
     height: 360px;
 }
@@ -26,7 +23,7 @@ html,body
 }
 #my-modal{
     margin-top: 48px;
-    margin-left: 73% !important;
+    margin-left: 37% !important;
     align-items: flex-start;
     background-color: transparent;
 }
@@ -34,7 +31,7 @@ html,body
     border-radius: 0%;
 }
 #my-modalR{
-    margin-top: 25%;
+    margin-top: 79%;
     background-color: transparent;
 }
 #my-modalR input{
@@ -72,7 +69,7 @@ html,body
     
 }
 .modal-r{
-    margin-left: 36%;
+    margin-left: 6%;
     align-items: center !important;
 }
 .modal-box{
@@ -353,13 +350,102 @@ ul li:hover{
     background-color: #1098e7 !important;
     border: 1px solid #1098e7 !important;
 }
+.logo-wid{
+    width: 36% !important;
+    margin-left: 28%;
+}
 /* Responsive css */
+@media only screen and (min-width: 475px){ /*for md*/
+    #my-modal{
+        margin-top: 48px;
+        margin-left: 52% !important;
+        align-items: flex-start;
+        background-color: transparent;
+    }
+    #my-modalR{
+        margin-top: 65%;
+        background-color: transparent;
+    }
+    .modal-r{
+        margin-left: 10%;
+        align-items: center !important;
+    }
+    .logo-wid{
+        height: 112px;
+        width: 112px !important;
+        margin-left: 0%;
+    }
+}
+@media only screen and (min-width: 640px){ /*for md*/
+    #my-modal{
+        margin-top: 48px;
+        margin-left: 64% !important;
+        align-items: flex-start;
+        background-color: transparent;
+    }
+    #my-modalR{
+        margin-top: 47%;
+        background-color: transparent;
+    }
+    .modal-r{
+        margin-left: 22%;
+        align-items: center !important;
+    }
+    .logo-wid{
+        height: 240px;
+        width: 240px !important;
+        margin-left: 0%;
+    }
+}
+@media only screen and (min-width: 768px){ /*for md*/
+    #my-modal{
+        margin-top: 48px;
+        margin-left: 70% !important;
+        align-items: flex-start;
+        background-color: transparent;
+    }
+    #my-modalR{
+        margin-top: 45%;
+        background-color: transparent;
+    }
+    .modal-r{
+        margin-left: 30%;
+        align-items: center !important;
+    }
+    .ml{
+        margin-left: 5% !important;
+    }
+    .logo-wid{
+        height: 240px;
+        width: 240px !important;
+        margin-left: 0%;
+    }
+}
 @media only screen and (min-width: 1024px){ /*for lg*/
     .ml{
-        margin-left: 29% !important;
+        margin-left: 13% !important;
     }
     .login{
         margin-left: 25%;
+    }
+    #my-modal{
+        margin-top: 48px;
+        margin-left: 73% !important;
+        align-items: flex-start;
+        background-color: transparent;
+    }
+    #my-modalR{
+        margin-top: 35%;
+        background-color: transparent;
+    }
+    .modal-r{
+        margin-left: 36%;
+        align-items: center !important;
+    }
+    .logo-wid{
+        height: 240px;
+        width: 240px !important;
+        margin-left: 0%;
     }
 }
 @media only screen and (min-width: 1280px){ /*for xl*/
@@ -385,12 +471,10 @@ ul li:hover{
         height: 385px;
     }
     .ml{
-        margin-left: 32% !important;
+        margin-left: 21% !important;
     }
-    #my-modal{
-        margin-top: 48px;
-        margin-left: 73% !important;
-        align-items: flex-start;
+    #my-modalR{
+        margin-top: 25%;
         background-color: transparent;
     }
 }
@@ -398,8 +482,11 @@ ul li:hover{
 @media only screen and (min-width: 1536px){ /*for 2xl*/
     #my-modal{
         margin-top: 48px;
-        margin-left: 81% !important;
+        margin-left: 82% !important;
         align-items: flex-start;
         background-color: transparent;
+    }
+    .ml{
+        margin-left: 25% !important;
     }
 }
