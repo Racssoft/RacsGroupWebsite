@@ -369,8 +369,28 @@ ul li:hover{
     width: 120px !important;
     margin-left: 31%;
 }
+.wid{
+    width: 80% !important;
+    margin-top: 14%;
+    margin-left: 20%;
+}
+.wid-1{
+    width: 60% !important;
+    margin-top: 14%;
+    margin-left: 33%;
+}
 /* Responsive css */
 @media only screen and (min-width: 475px){ /*for md*/
+    .wid{
+        width: 60% !important;
+        margin-top: 14%;
+        margin-left: 20%;
+    }
+    .wid-1{
+        width: 50% !important;
+        margin-top: 14%;
+        margin-left: 33%;
+    }
     #my-modal{
         margin-top: 48px;
         margin-left: 52% !important;
@@ -462,6 +482,16 @@ ul li:hover{
         height: 8rem !important;
         width: 100% !important;
         margin-left: 0%;
+    }
+    .wid{
+        width: 60% !important;
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+    .wid-1{
+        width: 40% !important;
+        margin-top: 4%;
+        margin-left: 33%;
     }
 }
 @media only screen and (min-width: 768px){ /*for md*/
