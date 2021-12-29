@@ -364,6 +364,11 @@ ul li:hover{
     width: 36% !important;
     margin-left: 28%;
 }
+.pic-wid{
+    height: 150px;
+    width: 120px !important;
+    margin-left: 31%;
+}
 /* Responsive css */
 @media only screen and (min-width: 475px){ /*for md*/
     #my-modal{
@@ -405,6 +410,11 @@ ul li:hover{
     }
     .service6{
         height: 360px;
+    }
+    .pic-wid{
+        height: 150px;
+        width: 120px !important;
+        margin-left: 35%;
     }
 }
 @media only screen and (min-width: 640px){ /*for md*/
@@ -448,8 +458,11 @@ ul li:hover{
     .service6{
         height: 385px;
     }
-    
-}
+    .pic-wid{
+        height: 8rem !important;
+        width: 100% !important;
+        margin-left: 0%;
+    }
 }
 @media only screen and (min-width: 768px){ /*for md*/
     #my-modal{
@@ -468,11 +481,6 @@ ul li:hover{
     }
     .ml{
         margin-left: 5% !important;
-    }
-    .logo-wid{
-        height: 240px;
-        width: 240px !important;
-        margin-left: 0%;
     }
     .service{
         height: 385px;
@@ -505,6 +513,11 @@ ul li:hover{
         height: 230px;
         width: 220px;
     }
+    .pic-wid{
+        height: 13rem !important;
+        width: 100% !important;
+        margin-left: 0%;
+    }
 }
 @media only screen and (min-width: 1024px){ /*for lg*/
     .product-ml{
@@ -531,11 +544,6 @@ ul li:hover{
         margin-left: 36%;
         align-items: center !important;
     }
-    .logo-wid{
-        height: 240px;
-        width: 240px !important;
-        margin-left: 0%;
-    }
     .service{
         height: 385px;
     }
@@ -556,6 +564,9 @@ ul li:hover{
     }
     .service6{
         height: 385px;
+    }
+    .mll-1{
+        margin-left: 18% !important;
     }
 }
 @media only screen and (min-width: 1280px){ /*for xl*/
@@ -583,6 +594,9 @@ ul li:hover{
     .ml{
         margin-left: 21% !important;
     }
+    .mll-1{
+        margin-left: 25% !important;
+    }
     #my-modalR{
         margin-top: 25%;
         background-color: transparent;
@@ -598,5 +612,8 @@ ul li:hover{
     }
     .ml{
         margin-left: 25% !important;
+    }
+    .mll-1{
+        margin-left: 28% !important;
     }
 }
