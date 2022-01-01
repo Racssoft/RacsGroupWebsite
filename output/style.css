@@ -647,3 +647,32 @@ ul li:hover{
         margin-left: 28% !important;
     }
 }
+@media only screen and (min-width: 1536px){ /*for xxl*/
+    .ml{
+        margin-left: 30% !important;
+    }
+    .mll-1{
+        margin-left: 33% !important;
+    }
+    .service{
+        height: 435px;
+    }
+    .service1{
+        height: 435px;
+    }
+    .service2{
+        height: 435px;
+    }
+    .service3{
+        height: 435px;
+    }
+    .service4{
+        height: 435px;
+    }
+    .service5{
+        height: 435px;
+    }
+    .service6{
+        height: 435px;
+    }
+}
