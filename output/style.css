@@ -1,678 +1,755 @@
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
-.fixed{
-    z-index: 10000;
-    position: fixed;
-    top: 0px;
-    width: 100%;
-}
-.company-info{
-    height: 360px;
-}
-.mt{
-    margin-top: -85px;
-}
-.text{
-    color: #0977b5;
-}
-#my-modal{
-    margin-top: 48px;
-    margin-left: 37% !important;
-    align-items: flex-start;
-    background-color: transparent;
-}
-#my-modal input{
-    border-radius: 0%;
-}
-#my-modalR{
-    margin-top: 79%;
-    background-color: transparent;
-}
-#my-modalR input{
-    border-radius: 0%;
-}
-#my-modalG{
-    background-color: transparent;
-}
-#my-modalG input{
-    border-radius: 0%;
-}
-#my-modalC{
-    background-color: transparent;
-}
-#my-modalC input{
-    border-radius: 0%;
-}
-#my-modalA{
-    background-color: transparent;
-}
-#my-modalA input{
-    border-radius: 0%;
-}
-.font-1{
-    font-weight: bold;
-}
-.font-2{
-    color: rgb(0, 0, 0);
-}
-.modal-action{
-    justify-content: center;
-    margin-top: 5px;
-}
-.close{
-    
-}
-.modal-r{
-    margin-left: 6%;
-    align-items: center !important;
-}
-.modal-box{
-    border-radius: 0%;
-    background-image: linear-gradient(to right, rgba(109,180,186,0), rgba(109,180,186,1));
-}
-#modalBox{
-    background-image: linear-gradient(to right, rgb(224, 224, 224), #0977b5) !important;
-}
-*,::before, ::after {
-    --tw-border-opacity: 1;
-    border-color: #1f2937;
-}
-.product{
-    margin-top: 40%;
-    border-radius: 0%;
-    height: 230px;
-    width: 220px;
-}
-.product-ml{
-    align-items: center;
-    margin-left: 8%;
-}
-.product-ml-1{
-    align-items: center;
-    margin-left: 8%;
-}
-#shadow {
-    
-    
-}
-.center{
-    display: flex;
-    margin-top: 32%;
-    margin-left: 39%;
-}
-.nav{
-    margin-left: 5%;
-}
-.login{
-    margin-left: 11%;
-}
-#placeholder::placeholder{
-    color: white;
-}
-
-ul li:hover{
-    background-color: #9ca3af !important;
-    color: black;
-    font-weight: bold;
-}
-
-#emailSignUp::placeholder{
-    color: gray;
-    font-weight: bold;
-}
-#emailSignUp{
-    border: 1px solid rgba(255,255,255,.2);
-    border-radius: 0%;
-}
-#emailSignUpBtn{
-    border-radius: 0%;
-    color: gray;
-    border: 1px solid rgba(255,255,255,.2);
-}
-.color{
-    color: #818181 !important;
-}
-.color:hover{
-    color: white !important;
-}
-.borderColor{
-    border-color: #ae946d;
-}
-.borderColor:hover{
-    border-color: white;
-}
-.hr-1{
-    border:1px solid rgba(255,255,255,.2);
-}
-.hr{
-    border:1px solid #ae946d;
-}
-.hr:hover{
-    border-color: white;
-}
-.imgBorder{
-    border:2px solid rgba(255,255,255,.2);
-    border-radius: 15%;
-}
-.font{
-    font-family: 'Righteous', cursive;
-    color: #1098e7;
-}
-.fontz{
-    font-family: 'Righteous', cursive;
-}
-.hotline{
-    color: #ae946d;
-}
-.hotline:hover{
-    color: white;
-}
-.divide-x-2{
-    margin-top: 10px !important;
-}
-.details{
-    color: #BBA14F !important;
-}
-.service{
-    background-color: rgba(6,182,212,.7);
-    height: 370px;
-}
-.service1{
-    background-color: rgba(28,102,145,.7);
-    height: 370px;
-}
-.service2{
-    background-color: rgba(46, 234, 162, 0.7);
-    height: 370px;
-}
-.service3{
-    background-color: rgba(25, 254, 243, 0.7);
-    height: 370px;
-}
-.service4{
-    background-color: rgba(80,141,2,.7);
-    height: 370px;
-}
-.service5{
-    background-color: rgba(9, 119, 181,.7);
-    height: 370px;
-}
-.service6{
-    background-color: rgba(141, 2, 60, 0.5);
-    height: 370px;
-}
-
-/* Slider */ 
-.customer-logos {
-    width: 90vw;
-}
-#prod{
-    width: 100vw;
-}
-/* Slider */
-.slick-slide {
-    margin: 0px 20px;
-}
-
-.slick-slide img {
-    width: 100%;
-}
-
-.slick-slider
-{
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-
-    -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-
-    -webkit-touch-callout: none;
-    -khtml-user-select: none;
-    -ms-touch-action: pan-y;
-        touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent;
-}
-
-.slick-list
-{
-    position: relative;
-    display: block;
-    overflow: hidden;
-
-    margin: 0;
-    padding: 0;
-}
-.slick-list:focus
-{
-    outline: none;
-}
-.slick-list.dragging
-{
-    cursor: pointer;
-    cursor: hand;
-}
-
-.slick-slider .slick-track,
-.slick-slider .slick-list
-{
-    -webkit-transform: translate3d(0, 0, 0);
-        -moz-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-        -o-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-}
-
-.slick-track
-{
-    position: relative;
-    top: 0;
-    left: 0;
-
-    display: block;
-}
-.slick-track:before,
-.slick-track:after
-{
-    display: table;
-
-    content: '';
-}
-.slick-track:after
-{
-    clear: both;
-}
-.slick-loading .slick-track
-{
-    visibility: hidden;
-}
-
-.slick-slide
-{
-    display: none;
-    float: left;
-
-    height: 100%;
-    min-height: 1px;
-}
-[dir='rtl'] .slick-slide
-{
-    float: right;
-}
-.slick-slide img
-{
-    display: block;
-}
-.slick-slide.slick-loading img
-{
-    display: none;
-}
-.slick-slide.dragging img
-{
-    pointer-events: none;
-}
-.slick-initialized .slick-slide
-{
-    display: block;
-}
-.slick-loading .slick-slide
-{
-    visibility: hidden;
-}
-.slick-vertical .slick-slide
-{
-    display: block;
-
-    height: auto;
-
-    border: 1px solid transparent;
-}
-.slick-arrow.slick-hidden {
-    display: none;
-}
-/* slider end */
-
-.animate-bounce{
-    animation: bounce 2s infinite;
-}
-.animate-bounce-1{
-    animation: bounce 4s infinite;
-}
-.animate-bounce-2{
-    animation: bounce 6s infinite;
-}
-.animate-bounce-3{
-    animation: bounce 10s infinite;
-}
-#btn{
-    background-color: #0977b5 !important;
-    border: 1px solid #0977b5;
-}
-#btn:hover{
-    background-color: #1098e7 !important;
-    border: 1px solid #1098e7 !important;
-}
-.logo-wid{
-    width: 36% !important;
-    margin-left: 28%;
-}
-.pic-wid{
-    height: 150px;
-    width: 120px !important;
-    margin-left: 31%;
-}
-.wid{
-    width: 80% !important;
-    margin-top: 14%;
-    margin-left: 20%;
-}
-.wid-1{
-    width: 60% !important;
-    margin-top: 14%;
-    margin-left: 33%;
-}
-/* Responsive css */
-@media only screen and (min-width: 475px){ /*for md*/
-    .wid{
-        width: 60% !important;
-        margin-top: 14%;
-        margin-left: 20%;
+        html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
     }
-    .wid-1{
-        width: 50% !important;
-        margin-top: 14%;
-        margin-left: 33%;
+    
+    .fixed {
+        z-index: 10000;
+        position: fixed;
+        top: 0px;
+        width: 100%;
     }
-    #my-modal{
+    
+    .company-info {
+        height: 360px;
+    }
+    
+    .mt {
+        margin-top: -85px;
+    }
+    
+    .text {
+        color: #0977b5;
+    }
+    
+    #my-modal {
         margin-top: 48px;
-        margin-left: 52% !important;
+        margin-left: 37% !important;
         align-items: flex-start;
         background-color: transparent;
     }
-    #my-modalR{
-        margin-top: 65%;
+    
+    #my-modal input {
+        border-radius: 0%;
+    }
+    
+    #my-modalR {
+        margin-top: 79%;
         background-color: transparent;
     }
-    .modal-r{
-        margin-left: 10%;
+    
+    #my-modalR input {
+        border-radius: 0%;
+    }
+    
+    #my-modalG {
+        background-color: transparent;
+    }
+    
+    #my-modalG input {
+        border-radius: 0%;
+    }
+    
+    #my-modalC {
+        background-color: transparent;
+    }
+    
+    #my-modalC input {
+        border-radius: 0%;
+    }
+    
+    #my-modalA {
+        background-color: transparent;
+    }
+    
+    #my-modalA input {
+        border-radius: 0%;
+    }
+    
+    #searchInput {
+        border-radius: 0% !important;
+        background: transparent;
+    }
+    
+    .font-1 {
+        font-weight: bold;
+    }
+    
+    .font-2 {
+        color: rgb(0, 0, 0);
+    }
+    
+    .modal-action {
+        justify-content: center;
+        margin-top: 5px;
+    }
+    
+    .close {}
+    
+    .modal-r {
+        margin-left: 6%;
         align-items: center !important;
     }
-    .logo-wid{
-        height: 112px;
-        width: 112px !important;
-        margin-left: 0%;
+    
+    .modal-box {
+        border-radius: 0%;
+        background-image: linear-gradient(to right, rgba(109, 180, 186, 0), rgba(109, 180, 186, 1));
     }
-    .service{
-        height: 360px;
+    
+    #modalBox {
+        background-image: linear-gradient(to right, rgb(224, 224, 224), #0977b5) !important;
     }
-    .service1{
-        height: 360px;
+    
+    *,
+        ::before,
+        ::after {
+        --tw-border-opacity: 1;
+        border-color: #1f2937;
     }
-    .service2{
-        height: 360px;
-    }
-    .service3{
-        height: 360px;
-    }
-    .service4{
-        height: 360px;
-    }
-    .service5{
-        height: 360px;
-    }
-    .service6{
-        height: 360px;
-    }
-    .pic-wid{
-        height: 150px;
-        width: 120px !important;
-        margin-left: 35%;
-    }
-}
-@media only screen and (min-width: 640px){ /*for md*/
-    #my-modal{
-        margin-top: 48px;
-        margin-left: 64% !important;
-        align-items: flex-start;
-        background-color: transparent;
-    }
-    #my-modalR{
-        margin-top: 47%;
-        background-color: transparent;
-    }
-    .modal-r{
-        margin-left: 22%;
-        align-items: center !important;
-    }
-    .logo-wid{
-        height: 240px;
-        width: 240px !important;
-        margin-left: 0%;
-    }
-    .service{
-        height: 385px;
-    }
-    .service1{
-        height: 385px;
-    }
-    .service2{
-        height: 385px;
-    }
-    .service3{
-        height: 385px;
-    }
-    .service4{
-        height: 385px;
-    }
-    .service5{
-        height: 385px;
-    }
-    .service6{
-        height: 385px;
-    }
-    .pic-wid{
-        height: 8rem !important;
-        width: 100% !important;
-        margin-left: 0%;
-    }
-    .wid{
-        width: 60% !important;
-        margin-top: 5%;
-        margin-left: 20%;
-    }
-    .wid-1{
-        width: 40% !important;
-        margin-top: 4%;
-        margin-left: 33%;
-    }
-}
-@media only screen and (min-width: 768px){ /*for md*/
-    #my-modal{
-        margin-top: 48px;
-        margin-left: 70% !important;
-        align-items: flex-start;
-        background-color: transparent;
-    }
-    #my-modalR{
-        margin-top: 45%;
-        background-color: transparent;
-    }
-    .modal-r{
-        margin-left: 30%;
-        align-items: center !important;
-    }
-    .ml{
-        margin-left: 5% !important;
-    }
-    .service{
-        height: 385px;
-    }
-    .service1{
-        height: 385px;
-    }
-    .service2{
-        height: 385px;
-    }
-    .service3{
-        height: 385px;
-    }
-    .service4{
-        height: 385px;
-    }
-    .service5{
-        height: 385px;
-    }
-    .service6{
-        height: 385px;
-    }
-    .product-ml{
-        align-items: center;
-        margin-left: -2.8%;
-    }
-    .product{
+    
+    .product {
         margin-top: 40%;
         border-radius: 0%;
         height: 230px;
         width: 220px;
     }
-    .pic-wid{
-        height: 13rem !important;
-        width: 100% !important;
-        margin-left: 0%;
-    }
-}
-@media only screen and (min-width: 1024px){ /*for lg*/
-    .product-ml{
+    
+    .product-ml {
         align-items: center;
         margin-left: 8%;
     }
-    .ml{
-        margin-left: 13% !important;
+    
+    .product-ml-1 {
+        align-items: center;
+        margin-left: 8%;
     }
-    .login{
-        margin-left: 25%;
+    
+    #shadow {}
+    
+    .center {
+        display: flex;
+        margin-top: 32%;
+        margin-left: 39%;
     }
-    #my-modal{
-        margin-top: 48px;
-        margin-left: 73% !important;
-        align-items: flex-start;
-        background-color: transparent;
+    
+    .nav {
+        margin-left: 5%;
     }
-    #my-modalR{
-        margin-top: 35%;
-        background-color: transparent;
+    
+    #placeholder::placeholder {
+        color: white;
     }
-    .modal-r{
-        margin-left: 36%;
-        align-items: center !important;
+    
+    ul li:hover {
+        background-color: #9ca3af !important;
+        color: black;
+        font-weight: bold;
     }
-    .service{
-        height: 385px;
+    
+    #emailSignUp::placeholder {
+        color: gray;
+        font-weight: bold;
     }
-    .service1{
-        height: 385px;
+    
+    #emailSignUp {
+        border: 1px solid rgba(255, 255, 255, .2);
+        border-radius: 0%;
     }
-    .service2{
-        height: 385px;
+    
+    #emailSignUpBtn {
+        border-radius: 0%;
+        color: gray;
+        border: 1px solid rgba(255, 255, 255, .2);
     }
-    .service3{
-        height: 385px;
+    
+    .color {
+        color: #818181 !important;
     }
-    .service4{
-        height: 385px;
+    
+    .color:hover {
+        color: white !important;
     }
-    .service5{
-        height: 385px;
+    
+    .borderColor {
+        border-color: #ae946d;
     }
-    .service6{
-        height: 385px;
+    
+    .borderColor:hover {
+        border-color: white;
     }
-    .mll-1{
-        margin-left: 18% !important;
+    
+    .hr-1 {
+        border: 1px solid rgba(255, 255, 255, .2);
     }
-}
-@media only screen and (min-width: 1280px){ /*for xl*/
-    .service{
-        height: 385px;
+    
+    .hr {
+        border: 1px solid #ae946d;
     }
-    .service1{
-        height: 385px;
+    
+    .hr:hover {
+        border-color: white;
     }
-    .service2{
-        height: 385px;
+    
+    .imgBorder {
+        border: 2px solid rgba(255, 255, 255, .2);
+        border-radius: 15%;
     }
-    .service3{
-        height: 385px;
+    
+    .font {
+        font-family: 'Righteous', cursive;
+        color: #1098e7;
     }
-    .service4{
-        height: 385px;
+    
+    .fontz {
+        font-family: 'Righteous', cursive;
     }
-    .service5{
-        height: 385px;
+    
+    .hotline {
+        color: #ae946d;
     }
-    .service6{
-        height: 385px;
+    
+    .hotline:hover {
+        color: white;
     }
-    .ml{
-        margin-left: 21% !important;
+    
+    .divide-x-2 {
+        margin-top: 10px !important;
     }
-    .mll-1{
-        margin-left: 25% !important;
+    
+    .details {
+        color: #BBA14F !important;
     }
-    #my-modalR{
-        margin-top: 25%;
-        background-color: transparent;
+    
+    .service {
+        background-color: rgba(6, 182, 212, .7);
+        height: 370px;
     }
-}
-
-@media only screen and (min-width: 1536px){ /*for 2xl*/
-    #my-modal{
-        margin-top: 48px;
-        margin-left: 82% !important;
-        align-items: flex-start;
-        background-color: transparent;
+    
+    .service1 {
+        background-color: rgba(28, 102, 145, .7);
+        height: 370px;
     }
-    .ml{
-        margin-left: 25% !important;
+    
+    .service2 {
+        background-color: rgba(46, 234, 162, 0.7);
+        height: 370px;
     }
-    .mll-1{
-        margin-left: 28% !important;
+    
+    .service3 {
+        background-color: rgba(25, 254, 243, 0.7);
+        height: 370px;
     }
-}
-@media only screen and (min-width: 1536px){ /*for xxl*/
-    .ml{
+    
+    .service4 {
+        background-color: rgba(80, 141, 2, .7);
+        height: 370px;
+    }
+    
+    .service5 {
+        background-color: rgba(9, 119, 181, .7);
+        height: 370px;
+    }
+    
+    .service6 {
+        background-color: rgba(141, 2, 60, 0.5);
+        height: 370px;
+    }
+    /* Slider */
+    
+    .customer-logos {
+        width: 90vw;
+    }
+    
+    #prod {
+        width: 100vw;
+    }
+    /* Slider */
+    
+    .slick-slide {
+        margin: 0px 20px;
+    }
+    
+    .slick-slide img {
+        width: 100%;
+    }
+    
+    .slick-slider {
+        position: relative;
+        display: block;
+        box-sizing: border-box;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-touch-callout: none;
+        -khtml-user-select: none;
+        -ms-touch-action: pan-y;
+        touch-action: pan-y;
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    .slick-list {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .slick-list:focus {
+        outline: none;
+    }
+    
+    .slick-list.dragging {
+        cursor: pointer;
+        cursor: hand;
+    }
+    
+    .slick-slider .slick-track,
+    .slick-slider .slick-list {
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    
+    .slick-track {
+        position: relative;
+        top: 0;
+        left: 0;
+        display: block;
+    }
+    
+    .slick-track:before,
+    .slick-track:after {
+        display: table;
+        content: '';
+    }
+    
+    .slick-track:after {
+        clear: both;
+    }
+    
+    .slick-loading .slick-track {
+        visibility: hidden;
+    }
+    
+    .slick-slide {
+        display: none;
+        float: left;
+        height: 100%;
+        min-height: 1px;
+    }
+    
+    [dir='rtl'] .slick-slide {
+        float: right;
+    }
+    
+    .slick-slide img {
+        display: block;
+    }
+    
+    .slick-slide.slick-loading img {
+        display: none;
+    }
+    
+    .slick-slide.dragging img {
+        pointer-events: none;
+    }
+    
+    .slick-initialized .slick-slide {
+        display: block;
+    }
+    
+    .slick-loading .slick-slide {
+        visibility: hidden;
+    }
+    
+    .slick-vertical .slick-slide {
+        display: block;
+        height: auto;
+        border: 1px solid transparent;
+    }
+    
+    .slick-arrow.slick-hidden {
+        display: none;
+    }
+    /* slider end */
+    
+    .animate-bounce {
+        animation: bounce 2s infinite;
+    }
+    
+    .animate-bounce-1 {
+        animation: bounce 4s infinite;
+    }
+    
+    .animate-bounce-2 {
+        animation: bounce 6s infinite;
+    }
+    
+    .animate-bounce-3 {
+        animation: bounce 10s infinite;
+    }
+    
+    #btn {
+        background-color: #0977b5 !important;
+        border: 1px solid #0977b5;
+    }
+    
+    #btn:hover {
+        background-color: #1098e7 !important;
+        border: 1px solid #1098e7 !important;
+    }
+    
+    .logo-wid {
+        width: 36% !important;
+        margin-left: 28%;
+    }
+    
+    .pic-wid {
+        height: 150px;
+        width: 120px !important;
+        margin-left: 31%;
+    }
+    
+    .wid {
+        width: 80% !important;
+        margin-top: 14%;
+        margin-left: 20%;
+    }
+    
+    .wid-1 {
+        width: 60% !important;
+        margin-top: 14%;
+        margin-left: 33%;
+    }
+    #searchInput::placeholder{
+        font-size: 12px;
+    }
+    #searchInput:focus{
+        outline: none;
+        border-bottom: 1px solid #fff;
+    }
+    /* Responsive css */
+    @media only screen and (min-width: 475px) {
+        /*for md*/
+        .wid {
+            width: 60% !important;
+            margin-top: 14%;
+            margin-left: 20%;
+        }
+        .wid-1 {
+            width: 50% !important;
+            margin-top: 14%;
+            margin-left: 33%;
+        }
+        #my-modal {
+            margin-top: 48px;
+            margin-left: 52% !important;
+            align-items: flex-start;
+            background-color: transparent;
+        }
+        #my-modalR {
+            margin-top: 65%;
+            background-color: transparent;
+        }
+        .modal-r {
+            margin-left: 10%;
+            align-items: center !important;
+        }
+        .logo-wid {
+            height: 112px;
+            width: 112px !important;
+            margin-left: 0%;
+        }
+        .service {
+            height: 360px;
+        }
+        .service1 {
+            height: 360px;
+        }
+        .service2 {
+            height: 360px;
+        }
+        .service3 {
+            height: 360px;
+        }
+        .service4 {
+            height: 360px;
+        }
+        .service5 {
+            height: 360px;
+        }
+        .service6 {
+            height: 360px;
+        }
+        .pic-wid {
+            height: 150px;
+            width: 120px !important;
+            margin-left: 35%;
+        }
+    }
+    
+    @media only screen and (min-width: 640px) {
+        /*for md*/
+        #my-modal {
+            margin-top: 48px;
+            margin-left: 64% !important;
+            align-items: flex-start;
+            background-color: transparent;
+        }
+        #my-modalR {
+            margin-top: 47%;
+            background-color: transparent;
+        }
+        .modal-r {
+            margin-left: 22%;
+            align-items: center !important;
+        }
+        .logo-wid {
+            height: 240px;
+            width: 240px !important;
+            margin-left: 0%;
+        }
+        .service {
+            height: 385px;
+        }
+        .service1 {
+            height: 385px;
+        }
+        .service2 {
+            height: 385px;
+        }
+        .service3 {
+            height: 385px;
+        }
+        .service4 {
+            height: 385px;
+        }
+        .service5 {
+            height: 385px;
+        }
+        .service6 {
+            height: 385px;
+        }
+        .pic-wid {
+            height: 8rem !important;
+            width: 100% !important;
+            margin-left: 0%;
+        }
+        .wid {
+            width: 60% !important;
+            margin-top: 5%;
+            margin-left: 20%;
+        }
+        .wid-1 {
+            width: 40% !important;
+            margin-top: 4%;
+            margin-left: 33%;
+        }
+    }
+    
+    @media only screen and (min-width: 768px) {
+        /*for md*/
+        #my-modal {
+            margin-top: 48px;
+            margin-left: 70% !important;
+            align-items: flex-start;
+            background-color: transparent;
+        }
+        #my-modalR {
+            margin-top: 45%;
+            background-color: transparent;
+        }
+        .modal-r {
+            margin-left: 30%;
+            align-items: center !important;
+        }
+        .ml {
+            margin-left: 5% !important;
+        }
+        .service {
+            height: 385px;
+        }
+        .service1 {
+            height: 385px;
+        }
+        .service2 {
+            height: 385px;
+        }
+        .service3 {
+            height: 385px;
+        }
+        .service4 {
+            height: 385px;
+        }
+        .service5 {
+            height: 385px;
+        }
+        .service6 {
+            height: 385px;
+        }
+        .product-ml {
+            align-items: center;
+            margin-left: -2.8%;
+        }
+        .product {
+            margin-top: 40%;
+            border-radius: 0%;
+            height: 230px;
+            width: 220px;
+        }
+        .pic-wid {
+            height: 13rem !important;
+            width: 100% !important;
+            margin-left: 0%;
+        }
+    }
+    
+    @media only screen and (min-width: 1024px) {
+        /*for lg*/
+        .product-ml {
+            align-items: center;
+            margin-left: 8%;
+        }
+        .ml {
+            margin-left: 13% !important;
+        }
+        .login {
+            margin-left: 10%;
+        }
+        .logins {
+            margin-left: 20%;
+        }
+        #my-modal {
+            margin-top: 48px;
+            margin-left: 73% !important;
+            align-items: flex-start;
+            background-color: transparent;
+        }
+        #my-modalR {
+            margin-top: 35%;
+            background-color: transparent;
+        }
+        .modal-r {
+            margin-left: 36%;
+            align-items: center !important;
+        }
+        .service {
+            height: 385px;
+        }
+        .service1 {
+            height: 385px;
+        }
+        .service2 {
+            height: 385px;
+        }
+        .service3 {
+            height: 385px;
+        }
+        .service4 {
+            height: 385px;
+        }
+        .service5 {
+            height: 385px;
+        }
+        .service6 {
+            height: 385px;
+        }
+        .mll-1 {
+            margin-left: 18% !important;
+        }
+    }
+    
+    @media only screen and (min-width: 1280px) {
+        /*for xl*/
+        .service {
+            height: 385px;
+        }
+        .service1 {
+            height: 385px;
+        }
+        .service2 {
+            height: 385px;
+        }
+        .service3 {
+            height: 385px;
+        }
+        .service4 {
+            height: 385px;
+        }
+        .service5 {
+            height: 385px;
+        }
+        .service6 {
+            height: 385px;
+        }
+        .ml {
+            margin-left: 21% !important;
+        }
+        .mll-1 {
+            margin-left: 25% !important;
+        }
+        #my-modalR {
+            margin-top: 25%;
+            background-color: transparent;
+        }
+    }
+    
+    @media only screen and (min-width: 1536px) {
+        /*for 2xl*/
+        #my-modal {
+            margin-top: 48px;
+            margin-left: 82% !important;
+            align-items: flex-start;
+            background-color: transparent;
+        }
+        .ml {
+            margin-left: 26% !important;
+        }
+        .mll-1 {
+            margin-left: 28% !important;
+        }
+    }
+        
+    @media only screen and (min-width: 1920px) {
+            /*for xxl*/
+    .ml {
         margin-left: 30% !important;
     }
-    .mll-1{
+    .mll-1 {
         margin-left: 33% !important;
     }
-    .service{
+    .service {
         height: 435px;
     }
-    .service1{
+    .service1 {
         height: 435px;
     }
-    .service2{
+    .service2 {
         height: 435px;
     }
-    .service3{
+    .service3 {
         height: 435px;
     }
-    .service4{
+    .service4 {
         height: 435px;
     }
-    .service5{
+    .service5 {
         height: 435px;
     }
-    .service6{
+    .service6 {
         height: 435px;
+    }
+    .logo-wid {
+        height: 280px;
+        width: 280px !important;
+        margin-left: 0%;
     }
 }

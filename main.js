@@ -21,86 +21,98 @@
 //   }
 // }
 
-$( document ).ready(function() {
+$(document).ready(function() {
 
-	$('#parent').hover(function() {
-		$('#submenu').stop(true, true).slideDown(1000);
-	}, function() {
-		$('#submenu').stop(false, false).slideUp(1000000);
+    $('#parent').hover(function() {
+        $('#submenu').stop(true, true).slideDown(1000);
+    }, function() {
+        $('#submenu').stop(false, false).slideUp(1000000);
+    });
 
-	});
+    $('.customer-logos').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+        dots: false,
+        pauseOnHover: true,
+        responsive: [{
+            breakpoint: 1280,
+            settings: {
+                slidesToShow: 3
+            }
+        }, {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 2
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2
+            }
+        }, {
+            breakpoint: 640,
+            settings: {
+                slidesToShow: 1
+            }
+        }]
+    });
+    if (document.documentElement.clientWidth < 900) {
+        // scripts
+    }
+    $('#prod').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+        dots: false,
+        pauseOnHover: true,
+        responsive: [{
+            breakpoint: 1280,
+            settings: {
+                slidesToShow: 3
+            }
+        }, {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 2
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2
+            }
+        }, {
+            breakpoint: 640,
+            settings: {
+                slidesToShow: 1
+            }
+        }]
+    });
+    // $("#s").click(function(){
+    // 	Swal.fire({
+    // 		position: 'center',
+    // 		title: 'Message Submit Successfully! Our Concern Person Send you the Consultant Schedule by reply email',
+    // 		showConfirmButton: false,
+    // 		timer: 2000
+    // 	  })
+    //   });
 
-	$('.customer-logos').slick({
-		slidesToShow: 4,
-		slidesToScroll: 1,
-		autoplay: true,
-		autoplaySpeed: 2000,
-		arrows: false,
-		dots: false,
-			pauseOnHover: true,
-			responsive: [{
-			breakpoint: 1280,
-			settings: {
-				slidesToShow: 3
-			}
-		}, {
-			breakpoint: 1024,
-			settings: {
-				slidesToShow: 2
-			}
-		}, {
-			breakpoint: 768,
-			settings: {
-				slidesToShow: 2
-			}
-		}, {
-			breakpoint: 640,
-			settings: {
-				slidesToShow: 1
-			}
-		}]
-	});
-	if (document.documentElement.clientWidth < 900) {
-		// scripts
-	}
-	$('#prod').slick({
-		slidesToShow: 6,
-		slidesToScroll: 1,
-		autoplay: true,
-		autoplaySpeed: 2000,
-		arrows: false,
-		dots: false,
-			pauseOnHover: true,
-			responsive: [{
-			breakpoint: 1280,
-			settings: {
-				slidesToShow: 3
-			}
-		}, {
-			breakpoint: 1024,
-			settings: {
-				slidesToShow: 2
-			}
-		}, {
-			breakpoint: 768,
-			settings: {
-				slidesToShow: 2
-			}
-		}, {
-			breakpoint: 640,
-			settings: {
-				slidesToShow: 1
-			}
-		}]
-	});
-	// $("#s").click(function(){
-	// 	Swal.fire({
-	// 		position: 'center',
-	// 		title: 'Message Submit Successfully! Our Concern Person Send you the Consultant Schedule by reply email',
-	// 		showConfirmButton: false,
-	// 		timer: 2000
-	// 	  })
-	//   });
+    $("#search").click(function() {
+        if ($("#search").hasClass('logins')) {
+            $("#search").removeClass('logins');
+            $("#searchInput").removeClass("hidden");
+            $("#searchInput").addClass("login");
+            $("#searchInput").focus();
+        } else {
+            $("#searchInput").removeClass("login");
+            $("#searchInput").addClass("hidden");
+            $("#search").addClass("logins");
+        }
+    })
 });
 
 
