@@ -272,6 +272,8 @@
     
     #prod {
         width: 100vw;
+        float: right;
+        margin-top: -12%;
     }
     /* Slider */
     
@@ -519,6 +521,9 @@
         .logins{
             margin-left: 20%;
         }
+        #prod{
+            margin-top: -2%;
+        }
     }
     
     @media only screen and (min-width: 640px) {
@@ -584,6 +589,9 @@
         .logins{
             margin-left: 19%;
         }
+        #prod{
+            margin-top: -10%;
+        }
     }
     
     @media only screen and (min-width: 768px) {
@@ -646,6 +654,9 @@
         }
         .logins{
             margin-left: 10%;
+        }
+        #prod{
+            margin-top: 0;
         }
     }
     
