@@ -193,7 +193,9 @@
     .hr {
         border: 1px solid #ae946d;
     }
-    
+    .col{
+        color:#ae946d;
+    }
     .hr:hover {
         border-color: white;
     }

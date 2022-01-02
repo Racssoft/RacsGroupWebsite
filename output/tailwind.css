@@ -1445,6 +1445,10 @@ html {
   margin-left: 3.5rem;
 }
 
+.ml-16 {
+  margin-left: 4rem;
+}
+
 .ml-36 {
   margin-left: 9rem;
 }
@@ -2362,6 +2366,10 @@ html {
     margin-left: 5rem;
   }
 
+  .xs\:ml-28 {
+    margin-left: 7rem;
+  }
+
   .xs\:w-5 {
     width: 1.25rem;
   }
@@ -2489,6 +2497,10 @@ html {
 
   .sm\:ml-32 {
     margin-left: 8rem;
+  }
+
+  .sm\:ml-52 {
+    margin-left: 13rem;
   }
 
   .sm\:flex {
@@ -2685,6 +2697,10 @@ html {
     margin-left: 9rem;
   }
 
+  .md\:ml-64 {
+    margin-left: 16rem;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -2807,8 +2823,16 @@ html {
     margin-right: 8rem;
   }
 
+  .lg\:ml-0 {
+    margin-left: 0px;
+  }
+
   .lg\:ml-3 {
     margin-left: 0.75rem;
+  }
+
+  .lg\:ml-5 {
+    margin-left: 1.25rem;
   }
 
   .lg\:ml-14 {
@@ -2937,6 +2961,10 @@ html {
     margin-left: 4rem;
   }
 
+  .xl\:ml-20 {
+    margin-left: 5rem;
+  }
+
   .xl\:ml-28 {
     margin-left: 7rem;
   }
@@ -2989,6 +3017,11 @@ html {
     text-align: justify;
   }
 
+  .xl\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
   .xl\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -3018,6 +3051,14 @@ html {
 
   .\32xl\:ml-24 {
     margin-left: 6rem;
+  }
+
+  .\32xl\:ml-40 {
+    margin-left: 10rem;
+  }
+
+  .\32xl\:ml-44 {
+    margin-left: 11rem;
   }
 
   .\32xl\:ml-48 {
