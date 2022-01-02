@@ -23,8 +23,8 @@
         <header class="text-white bg-gray-900 bg-opacity-60 fixed glass">
             <div class="container mx-auto flex flex-wrap p-3 flex-row sm:flex-row items-center">
                 <div class="dropdown text-xs">
-                    <a id="parent" tabindex="0" class="flex items-center mb-0 sm:mb-0 md:mb-0 mx-7  xs:mx-14 sm:mx-24 md:mx-28 lg:mx-40 xl:mx-52 2xl:mx-64 xxl:mx-80 cursor-pointer">
-                        <img class="w-6" src="./images/RacssoftMockup.webp" alt="">
+                    <a id="parent" tabindex="0" class="flex items-center mb-0 mx-6 xs:mx-14 sm:mx-20 md:mx-28 lg:mx-32 xl:mx-44 xxl:mx-64 cursor-pointer">
+                        <img class="w-4 xs:w-5 sm:w-6" src="./images/RacssoftMockup.webp" alt="">
                     </a>
                     <ul id="submenu" tabindex="0" class="mt-3 p-2 menu dropdown-content w-52 text-white bg-gray-900 bg-opacity-80 ml-0 2xl:ml-24">
                         <li>
@@ -72,12 +72,18 @@
                     </ul>
                 </div>
                 <nav class="nav">
-                    <a class="mr-3 sm:mr-5 md:mr-16 lg:mr-20 2xl:mr-40 font-bold text-xs hover:text-gray-200" href="/">Racssoft</a>
-                    <a class="mr-3 sm:mr-5 md:mr-16 lg:mr-20 2xl:mr-40 font-bold text-xs hover:text-gray-200" href="/store">Store</a>
-                    <a class="font-bold text-xs hover:text-gray-200" href="/support">Support</a>
+                    <a class="mr-3 xs:mr-4 sm:mr-8 md:mr-16 lg:mr-32 2xl:mr-56 font-bold text-2xs sm:text-xs hover:text-gray-200" href="/">Racssoft</a>
+                    <a class="mr-3 xs:mr-4 sm:mr-8 md:mr-16 lg:mr-32 2xl:mr-56 font-bold text-2xs sm:text-xs hover:text-gray-200" href="/store">Store</a>
+                    <a class="font-bold text-2xs sm:text-xs hover:text-gray-200" href="/support">Support</a>
                 </nav>
-                <a class="hover:text-gray-200 text-white logins" href="#my-modal">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <input id="searchInput" class="mr-2 text-white hidden h-6 w-12 sm:w-16 lg:w-24 xl:w-36" placeholder="Search" type="text">
+                <a id="search" class="hover:text-gray-200 text-white logins" href="javascript:void(0)">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 sm:h-5 w-3 sm:w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                      </svg>
+                </a>
+                <a class="hover:text-gray-200 text-white ml-2 sm:ml-4 md:ml-8" href="#my-modal">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 sm:h-5 w-3 sm:w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
             </svg>
                 </a>
@@ -178,25 +184,25 @@
         </section>
 
         <section class="">
-            <main class="py-12 md:px-20 sm:px-14 px-6">
+            <main class="py-12 sm:px-14 md:px-20 px-6">
                 <div class="sm:flex items-center shadow-md">
-                    <div class="md:px-10 sm:px-5">
-                        <h1 class="text-gray-800 font-bold text-2xl xxl:text-3xl my-2">Social Citizenship</h1>
-                        <p class="text-gray-700 mb-2 md:mb-6 xxl:text-lg">RacsGroup commits to make a positive impact in globally through ensuring human basic demands- availability of food, clothes, roof over the head, education and medicine as well as to establish all rights. We believe that human can
+                    <div class="sm:px-5 md:px-10">
+                        <h1 class="text-gray-800 font-bold sm:text-xl lg:text-2xl xxl:text-3xl my-2">Social Citizenship</h1>
+                        <p class="text-gray-700 mb-2 md:mb-6 sm:text-sm md:text-base xxl:text-lg text-justify">RacsGroup commits to make a positive impact in globally through ensuring human basic demands- availability of food, clothes, roof over the head, education and medicine as well as to establish all rights. We believe that human can
                             strongly face the global crisis and challenges together.</p>
                         <div class="flex justify-between mb-2">
 
                         </div>
                     </div>
                     <div>
-                        <img class="bg-cover" src="./images/istockphoto-933438718-612x612.webp" alt="" />
+                        <img class="" src="./images/istockphoto-933438718-612x612.webp" alt="" />
                     </div>
                 </div>
                 <div class="mt-6 md:flex space-x-6">
-                    <div>
-                        <img class="w-110 xxl:w-125 h-64 xxl:h-80" src="./images/shutterstock_273209597.webp" alt="">
+                    <div class="ml-5 md:ml-0">
+                        <img class="w-110 xxl:w-125 md:h-40 lg:h-64 xxl:h-80" src="./images/shutterstock_273209597.webp" alt="">
                         <div>
-                            <h1 class="mt-3 text-gray-800 text-2xl xxl:text-3xl font-bold my-2">RacsFoundation</h1>
+                            <h1 class="mt-3 text-gray-800 sm:text-xl lg:text-2xl xxl:text-3xl font-bold my-2">RacsFoundation</h1>
                             <p class="text-gray-700 mb-2 xxl:text-lg text-justify">RacsFoundation is focused to ensure human basic demands-availability of food, cloth, roof over the head, education, medicine as well as to establish all rights.</p>
                             <div class="flex justify-between mt-4">
                                 <!-- <span class="font-thin text-sm">May 20th 2020</span>
@@ -205,9 +211,9 @@
                         </div>
                     </div>
                     <div>
-                        <img class="w-110 xxl:w-125 h-64 xxl:h-80" src="./images/Catalyst_Thumb.webp" alt="">
+                        <img class="w-110 xxl:w-125 md:h-40 lg:h-64 xxl:h-80" src="./images/Catalyst_Thumb.webp" alt="">
                         <div>
-                            <h1 class="mt-3 text-gray-800 text-2xl xxl:text-3xl font-bold my-2">Kirod</h1>
+                            <h1 class="mt-3 text-gray-800 sm:text-xl lg:text-2xl xxl:text-3xl font-bold my-2">Kirod</h1>
                             <p class="text-gray-700 mb-2 xxl:text-lg text-justify"> A service Platform that performs virtually to assure work availability and remuneration for laborers in accordance with labor legislation and make peoples daily life easier.</p>
                             <div class="flex justify-between mt-4">
 
@@ -215,9 +221,9 @@
                         </div>
                     </div>
                     <div>
-                        <img class="w-110 xxl:w-125 h-64 xxl:h-80" src="./images/how-to-grow-your-linkedin-network-and-get-noticed_2_11zon.webp" alt="">
+                        <img class="w-110 xxl:w-125 md:h-40 lg:h-64 xxl:h-80" src="./images/how-to-grow-your-linkedin-network-and-get-noticed_2_11zon.webp" alt="">
                         <div>
-                            <h1 class="mt-3 text-gray-800 text-2xl xxl:text-3xl font-bold my-2">Thungaa</h1>
+                            <h1 class="mt-3 text-gray-800 sm:text-xl lg:text-2xl xxl:text-3xl font-bold my-2">Thungaa</h1>
                             <p class="text-gray-700 mb-2 xxl:text-lg text-justify">Thungaa follows the strategy to plant organic food production, sustainable farming practices in order to provide a safe and healthy environment for people.</p>
                             <div class="flex justify-between mt-4">
 
@@ -336,6 +342,7 @@
 
     </main>
     <script src="main.js"></script>
+    <script src="./node_modules/slick-carousel/slick/slick.js"></script>
 </body>
 
 </html>

@@ -113,6 +113,18 @@ $(document).ready(function() {
             $("#search").addClass("logins");
         }
     })
+    $("#searchStore").click(function(){
+        if($("#searchStore").hasClass('loginss')){
+            $("#searchStore").removeClass('loginss');
+            $("#searchInputStore").removeClass('hidden');
+            $("#searchInputStore").addClass("loginsss");
+            $("#searchInputStore").focus();
+        }else {
+            $("#searchInputStore").removeClass("loginsss");
+            $("#searchInputStore").addClass("hidden");
+            $("#searchStore").addClass("loginss");
+        }
+    })
 });
 
 

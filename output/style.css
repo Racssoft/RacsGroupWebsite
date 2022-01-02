@@ -74,6 +74,10 @@
         border-radius: 0% !important;
         background: transparent;
     }
+    #searchInputStore {
+        border-radius: 0% !important;
+        background: transparent;
+    }
     
     .font-1 {
         font-weight: bold;
@@ -436,6 +440,19 @@
         outline: none;
         border-bottom: 1px solid #fff;
     }
+    #searchInputStore::placeholder{
+        font-size: 12px;
+    }
+    #searchInputStore:focus{
+        outline: none;
+        border-bottom: 1px solid #fff;
+    }
+    .login{
+        margin-left: 3.2%;
+    }
+    .logins{
+        margin-left: 16%;
+    }
     /* Responsive css */
     @media only screen and (min-width: 475px) {
         /*for md*/
@@ -492,7 +509,13 @@
         .pic-wid {
             height: 150px;
             width: 120px !important;
-            margin-left: 35%;
+            margin-left: 36%;
+        }
+        .login{
+            margin-left: 7.5%;
+        }
+        .logins{
+            margin-left: 20%;
         }
     }
     
@@ -553,13 +576,19 @@
             margin-top: 4%;
             margin-left: 33%;
         }
+        .login{
+            margin-left: 7.5%;
+        }
+        .logins{
+            margin-left: 19%;
+        }
     }
     
     @media only screen and (min-width: 768px) {
         /*for md*/
         #my-modal {
             margin-top: 48px;
-            margin-left: 70% !important;
+            margin-left: 63% !important;
             align-items: flex-start;
             background-color: transparent;
         }
@@ -610,6 +639,12 @@
             width: 100% !important;
             margin-left: 0%;
         }
+        .login{
+            margin-left: 2%;
+        }
+        .logins{
+            margin-left: 10%;
+        }
     }
     
     @media only screen and (min-width: 1024px) {
@@ -622,14 +657,14 @@
             margin-left: 13% !important;
         }
         .login {
-            margin-left: 10%;
+            margin-left: 5%;
         }
         .logins {
-            margin-left: 20%;
+            margin-left: 15%;
         }
         #my-modal {
             margin-top: 48px;
-            margin-left: 73% !important;
+            margin-left: 76% !important;
             align-items: flex-start;
             background-color: transparent;
         }
@@ -699,6 +734,12 @@
         #my-modalR {
             margin-top: 25%;
             background-color: transparent;
+        }
+        .login {
+            margin-left: 10%;
+        }
+        .logins {
+            margin-left: 20%;
         }
     }
     

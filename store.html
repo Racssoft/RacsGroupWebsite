@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Racssoft</title>
-    <meta name="description" content="Racssoft Support">
-    <meta name="keywords" content="Racssoft Support">
+    <meta name="description" content="Racssoft Store">
+    <meta name="keywords" content="Racssoft Store">
     <link rel="stylesheet" href="./output/tailwind.css" />
     <link rel="stylesheet" href="./output/style.css">
     <link rel="stylesheet" href="./output/store.css">
@@ -26,8 +26,8 @@
         <header class="text-white bg-gray-900 bg-opacity-60 fixed glass">
             <div class="container mx-auto flex flex-wrap p-3 flex-row sm:flex-row items-center">
                 <div class="dropdown text-xs">
-                    <a id="parent" tabindex="0" class="flex items-center mb-0 sm:mb-0 md:mb-0 mx-7 xs:mx-14 sm:mx-24 md:mx-28 lg:mx-40 xl:mx-52 2xl:mx-64 xxl:mx-80 cursor-pointer">
-                        <img class="w-6" src="./images/RacssoftMockup.webp" alt="">
+                    <a id="parent" tabindex="0" class="flex items-center mb-0 sm:mb-0 md:mb-0 mx-3 xs:mx-14 sm:mx-16 md:mx-24 lg:mx-32 xl:mx-44 xxl:mx-64 cursor-pointer">
+                        <img class="w-4 xs:w-5 sm:w-6" src="./images/RacssoftMockup.webp" alt="">
                     </a>
                     <ul id="submenu" tabindex="0" class="mt-3 p-2 menu dropdown-content w-52 text-white bg-gray-900 bg-opacity-80 ml-0 2xl:ml-24">
                         <li>
@@ -75,12 +75,23 @@
                     </ul>
                 </div>
                 <nav class="nav">
-                    <a class="mr-3 sm:mr-5 md:mr-16 lg:mr-20 2xl:mr-40 font-bold text-xs hover:text-gray-200" href="/">Racssoft</a>
-                    <a class="mr-3 sm:mr-5 md:mr-16 lg:mr-20 2xl:mr-40 font-bold text-xs hover:text-gray-200" href="/support">Support</a>
-                    <a class="font-bold text-xs hover:text-gray-200" href="/corporate">Corporate</a>
+                    <a class="mr-3 xs:mr-4 sm:mr-8 md:mr-16 lg:mr-28 xl:mr-32 2xl:mr-56 font-bold text-2xs sm:text-xs hover:text-gray-200" href="/">Racssoft</a>
+                    <a class="mr-3 xs:mr-4 sm:mr-8 md:mr-16 lg:mr-28 xl:mr-32 2xl:mr-56 font-bold text-2xs sm:text-xs hover:text-gray-200" href="/support">Support</a>
+                    <a class="font-bold text-2xs text-xs hover:text-gray-200" href="/corporate">Corporate</a>
                 </nav>
-                <a class="hover:text-gray-200 text-white logins" href="#my-modal">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <input id="searchInputStore" class="mr-2 text-white hidden h-6 w-8 xs:w-12 sm:w-16 lg:w-24 xl:w-36" placeholder="Search" type="text">
+                <a id="searchStore" class="hover:text-gray-200 text-white loginss" href="javascript:void(0)">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 sm:h-5 w-3 sm:w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                      </svg>
+                </a>
+                <a class="hover:text-gray-200 text-white ml-2 sm:ml-4 md:ml-8" href="javascript:void(0)">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 sm:h-5 w-3 sm:w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                      </svg>
+                </a>
+                <a class="hover:text-gray-200 text-white ml-2 sm:ml-4 md:ml-8" href="#my-modal">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 sm:h-5 w-3 sm:w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
             </svg>
                 </a>
@@ -716,6 +727,7 @@
     </main>
     <script src="main.js"></script>
     <script src="index.min.js"></script>
+    <script src="./node_modules/slick-carousel/slick/slick.js"></script>
 </body>
 
 </html>
