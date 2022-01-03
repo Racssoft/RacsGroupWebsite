@@ -446,7 +446,7 @@ html,body {
         border-bottom: 1px solid #fff;
     }
     #searchInputStore::placeholder{
-        font-size: 12px;
+        font-size: 9px;
     }
     #searchInputStore:focus{
         outline: none;
