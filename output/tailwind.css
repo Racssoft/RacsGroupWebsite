@@ -2377,6 +2377,11 @@ html {
     max-width: none;
   }
 
+  .xs\:mx-12 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
   .xs\:mx-14 {
     margin-left: 3.5rem;
     margin-right: 3.5rem;
