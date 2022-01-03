@@ -1,5 +1,4 @@
-        html,
-    body {
+html,body {
         width: 100%;
         height: 100%;
         margin: 0px;
@@ -423,7 +422,9 @@
     .pic-wid {
         height: 150px;
         width: 120px !important;
-        margin-left: 31%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
     }
     
     .wid {
@@ -513,7 +514,9 @@
         .pic-wid {
             height: 150px;
             width: 120px !important;
-            margin-left: 36%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
         }
         .login{
             margin-left: 7.5%;
