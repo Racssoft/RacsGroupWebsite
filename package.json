@@ -4,7 +4,7 @@
   "description": "Tailwind CSS Racssoft",
   "main": "index.js",
   "scripts": {
-    "build:css": "postcss ./src/tailwind.css -o ./output/tailwind.css -w",
+    "build:css": "postcss ./src/tailwind.css -o ./output/tailwind.css",
     "min": "npx tailwindcss -o ./output/tailwind.css --minify -w",
     "start": "nodemon app.js"
   },
@@ -24,6 +24,7 @@
     "jquery": "^3.6.0",
     "nodemon": "^2.0.15",
     "postcss-cli": "^9.1.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "watch": "^1.0.2"
   }
 }

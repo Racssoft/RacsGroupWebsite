@@ -1,25 +1,3 @@
-// Show Hide sidebar
-
-// let sidebarBtn = document.querySelector('#sidebarBtn');
-// sidebarBtn.onclick = function() {
-
-//   let sidebar = document.querySelector('aside');
-//   let sidebarMobile = document.querySelector('#sidebarMobile');
-
-//   if(sidebar.classList.contains('sm:block')) {
-//     sidebar.classList.replace('sm:block', 'sm:hidden');
-
-//   } else {
-//     sidebar.classList.replace('sm:hidden', 'sm:block');
-//   }
-
-//   if(sidebarMobile.classList.contains('hidden')) {
-//     sidebarMobile.classList.remove('hidden');
-
-//   } else {
-//     sidebarMobile.classList.add('hidden');
-//   }
-// }
 
 $(document).ready(function() {
 
@@ -112,11 +90,19 @@ $(document).ready(function() {
             $("#search").removeClass('logins');
             $("#searchInput").removeClass("hidden");
             $("#searchInput").addClass("login");
+            $("#hidden").addClass("hidden");
+            $("#hidden1").addClass("hidden");
+            $("#hidden2").addClass("hidden");
+            $("#hidden3").addClass("hidden");
             $("#searchInput").focus();
         } else {
             $("#searchInput").removeClass("login");
             $("#searchInput").addClass("hidden");
             $("#search").addClass("logins");
+            $("#hidden").removeClass("hidden");
+            $("#hidden1").removeClass("hidden");
+            $("#hidden2").removeClass("hidden");
+            $("#hidden3").removeClass("hidden");
         }
     })
     $("#searchStore").click(function(){

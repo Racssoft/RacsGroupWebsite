@@ -446,18 +446,18 @@ html,body {
         border-bottom: 1px solid #fff;
     }
     #searchInputStore::placeholder{
-        font-size: 9px;
+        font-size: 12px;
     }
     #searchInputStore:focus{
         outline: none;
         border-bottom: 1px solid #fff;
     }
     .login{
-        margin-left: 3.2%;
+        margin-left: -11%;
     }
-    .logins{
-        margin-left: 16%;
-    }
+    /* .logins{
+        margin-left: 5.6%;
+    } */
     /* Responsive css */
     @media only screen and (min-width: 475px) {
         /*for md*/
