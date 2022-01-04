@@ -54,11 +54,11 @@
     display: flex;
 }
 .loginsss{
-    margin-left:2%;
+    margin-left:-4%;
 }
-.loginss{
-    margin-left: 14%;
-}
+/* .loginss{
+    margin-left: 8%;
+} */
 /* Responsive */
 @media only screen and (min-width: 475px) { /*for 2xl*/
     .loginsss{

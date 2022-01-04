@@ -90,10 +90,18 @@ $(document).ready(function() {
             $("#search").removeClass('logins');
             $("#searchInput").removeClass("hidden");
             $("#searchInput").addClass("login");
-            $("#hidden").addClass("hidden");
-            $("#hidden1").addClass("hidden");
-            $("#hidden2").addClass("hidden");
-            $("#hidden3").addClass("hidden");
+            if(window.screen.width <475){
+                $("#hidden").addClass("hidden");
+                $("#hidden1").addClass("hidden");
+                $("#hidden2").addClass("hidden");
+                $("#hidden3").addClass("hidden");
+            }
+            else{
+                $("#hidden").removeClass("hidden");
+                $("#hidden1").removeClass("hidden");
+                $("#hidden2").removeClass("hidden");
+                $("#hidden3").removeClass("hidden");
+            }
             $("#searchInput").focus();
         } else {
             $("#searchInput").removeClass("login");
@@ -110,11 +118,29 @@ $(document).ready(function() {
             $("#searchStore").removeClass('loginss');
             $("#searchInputStore").removeClass('hidden');
             $("#searchInputStore").addClass("loginsss");
+            if(window.screen.width <475){
+                $("#hidden").addClass("hidden");
+                $("#hidden1").addClass("hidden");
+                $("#hidden2").addClass("hidden");
+                $("#hidden3").addClass("hidden");
+                $("#hidden4").addClass("hidden");
+            }
+            else{
+                $("#hidden").removeClass("hidden");
+                $("#hidden1").removeClass("hidden");
+                $("#hidden2").removeClass("hidden");
+                $("#hidden3").removeClass("hidden");
+            }
             $("#searchInputStore").focus();
         }else {
             $("#searchInputStore").removeClass("loginsss");
             $("#searchInputStore").addClass("hidden");
             $("#searchStore").addClass("loginss");
+            $("#hidden").removeClass("hidden");
+            $("#hidden1").removeClass("hidden");
+            $("#hidden2").removeClass("hidden");
+            $("#hidden3").removeClass("hidden");
+            $("#hidden4").removeClass("hidden");
         }
     })
 });

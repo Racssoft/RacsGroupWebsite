@@ -118,15 +118,10 @@ html,body {
         margin-top: 40%;
         border-radius: 0%;
         height: 230px;
-        width: 220px;
+        width: 220px !important;
     }
     
     .product-ml {
-        align-items: center;
-        margin-left: 8%;
-    }
-    
-    .product-ml-1 {
         align-items: center;
         margin-left: 8%;
     }
@@ -272,7 +267,7 @@ html,body {
     #prod {
         width: 100vw;
         float: right;
-        margin-top: -12%;
+        margin-top: -18%;
     }
     /* Slider */
     
@@ -519,16 +514,23 @@ html,body {
             display: block;
         }
         .login{
-            margin-left: 7.5%;
+            margin-left: 5.5%;
         }
         .logins{
             margin-left: 20%;
         }
-        #prod{
+        #prod {
+            width: 100vw;
             margin-top: -2%;
         }
         #auto{
             margin-left: auto !important;
+        }
+        .product {
+            margin-top: 40%;
+            border-radius: 0%;
+            height: 230px;
+            width: 220px;
         }
     }
     
