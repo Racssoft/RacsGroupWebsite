@@ -120,10 +120,9 @@ html,body {
         height: 230px;
         width: 220px !important;
     }
-    
     .product-ml {
         align-items: center;
-        margin-left: 8%;
+        margin-right: 15%;
     }
     
     #shadow {}
@@ -268,6 +267,7 @@ html,body {
         width: 100vw;
         float: right;
         margin-top: -18%;
+        margin-right: 4%;
     }
     /* Slider */
     
@@ -522,6 +522,7 @@ html,body {
         #prod {
             width: 100vw;
             margin-top: -2%;
+            margin-right: 19%;
         }
         #auto{
             margin-left: auto !important;
@@ -599,6 +600,7 @@ html,body {
         }
         #prod{
             margin-top: -10%;
+            margin-right: 8%;
         }
     }
     
@@ -642,10 +644,6 @@ html,body {
         .service6 {
             height: 385px;
         }
-        .product-ml {
-            align-items: center;
-            margin-left: -2.8%;
-        }
         .product {
             margin-top: 40%;
             border-radius: 0%;
@@ -665,15 +663,12 @@ html,body {
         }
         #prod{
             margin-top: 0;
+            margin-right: 10.5%;
         }
     }
     
     @media only screen and (min-width: 1024px) {
         /*for lg*/
-        .product-ml {
-            align-items: center;
-            margin-left: 8%;
-        }
         .ml {
             margin-left: 13% !important;
         }
@@ -721,6 +716,13 @@ html,body {
         .mll-1 {
             margin-left: 18% !important;
         }
+        .product-ml {
+            align-items: center;
+            margin-right: 6.5%;
+        }
+        #prod{
+            margin-right: 8%;
+        }
     }
     
     @media only screen and (min-width: 1280px) {
@@ -762,6 +764,13 @@ html,body {
         .logins {
             margin-left: 20%;
         }
+        .product-ml {
+            align-items: center;
+            margin-right: 6%;
+        }
+        #prod{
+            margin-right: 6.5%;
+        }
     }
     
     @media only screen and (min-width: 1536px) {
@@ -777,6 +786,13 @@ html,body {
         }
         .mll-1 {
             margin-left: 28% !important;
+        }
+        .product-ml {
+            align-items: center;
+            margin-right: 10%;
+        }
+        #prod{
+            margin-right: 5%;
         }
     }
         
